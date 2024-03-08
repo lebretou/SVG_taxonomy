@@ -11,7 +11,7 @@ from tenacity import (
     wait_random_exponential,
 )
 
-OPENAI_API_KEY = ""
+OPENAI_API_KEY = "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"
 
 headers = {
     "Content-Type": "application/json",
@@ -64,7 +64,7 @@ async def get_completion_list(content_list, max_parallel_calls, timeout=100):
 async def main():
 
     # Generate the prompts
-    prompt_list = generate_prompts("Scatter Plot", "Clustering")
+    prompt_list = generate_prompts("Scatter Plot", "Clustering", "./images/scatter")
     # print(prompt_list)
 
 
@@ -74,7 +74,7 @@ async def main():
     # print(completion_list)
 
     # Save the SVG files
-    save_svg_files(completion_list, "./results")
+    save_svg_files(completion_list, "./results/scatter/cluster", "scatter_clustering")
 
 if __name__ == '__main__':
     asyncio.run(main())
