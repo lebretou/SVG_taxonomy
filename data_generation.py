@@ -48,7 +48,7 @@ n_datasets = 10
 for i in range(n_datasets):
     n_points = np.random.randint(30, 51)  # Randomly choose between 30 to 50 points
     correlation_factor = np.random.uniform(-10, 10)
-    n_clusters = np.random.randint(2, 4)  # Randomly choose the number of clusters (between 1 and 3)
+    n_clusters = np.random.randint(2, 6)  # Randomly choose the number of clusters (between 1 and 3)
     cluster_bias = np.random.uniform(0, 5)  # Random bias for the first cluster
     file_name = f"scatter_data_{i+1}"
 

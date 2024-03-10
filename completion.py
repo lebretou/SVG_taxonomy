@@ -11,7 +11,7 @@ from tenacity import (
     wait_random_exponential,
 )
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "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"
 
 headers = {
     "Content-Type": "application/json",
