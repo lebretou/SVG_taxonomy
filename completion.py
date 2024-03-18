@@ -3,15 +3,14 @@ import aiohttp
 import time
 import gen_prompt
 from gen_prompt import generate_prompts
-from post_process import save_svg_files
-
+from post_process import save_svg_files, save_csv_files
 from tenacity import (
     retry,
     stop_after_attempt,
     wait_random_exponential,
 )
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "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"
 
 headers = {
     "Content-Type": "application/json",
@@ -22,59 +21,54 @@ class ProgressLog:
     def __init__(self, total):
         self.total = total
         self.done = 0
-
+    
     def increment(self):
         self.done = self.done + 1
-
+    
     def __repr__(self):
         return f"Done runs {self.done}/{self.total}."
 
 @retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(5), before_sleep=print, retry_error_callback=lambda _: None)
-async def get_completion(content, session, semaphore, progress_log):
+async def get_completion(content, session, semaphore, progress_log, index):
     async with semaphore:
-
         print(f"Processing: {progress_log.done + 1}/{progress_log.total}.")
-
         async with session.post("https://api.openai.com/v1/chat/completions", headers=headers, json={
             # "model": "gpt-3.5-turbo",
-            "model": "gpt-4-0125-preview",
+            "model": "gpt-4-turbo-preview",
             "messages": [{"role": "user", "content": content}],
             "temperature": 0
         }) as resp:
             if resp.status != 200:
-                # Log the error or handle it accordingly
-                error_message = await resp.text()  # Get the text of the response
+                error_message = await resp.text()
                 print(f"Error from API: {error_message}")
-                return None  # Or handle the error as appropriate for your application
-
+                raise Exception(f"Error with status code {resp.status} from API.")
+                # return None
             response_json = await resp.json()
-
             progress_log.increment()
             print(progress_log)
-
-            return response_json["choices"][0]["message"]["content"]
+            return (index, response_json["choices"][0]["message"]["content"])
 
 async def get_completion_list(content_list, max_parallel_calls, timeout=100):
     semaphore = asyncio.Semaphore(value=max_parallel_calls)
     progress_log = ProgressLog(len(content_list))
-
     async with aiohttp.ClientSession(timeout=aiohttp.ClientTimeout(timeout)) as session:
-        return await asyncio.gather(*[get_completion(content, session, semaphore, progress_log) for content in content_list])
+        completion_dict = await asyncio.gather(*[get_completion(content, session, semaphore, progress_log, index) for index, content in enumerate(content_list)])
+        completion_dict = dict(completion_dict)
+        return [completion_dict[i] for i in range(len(content_list))]
 
 async def main():
-
-    # Generate the prompts
-    prompt_list = generate_prompts("Scatter Plot", "Clustering", "./images/scatter")
-    # print(prompt_list)
-
-
+    prompt_list = generate_prompts("Scatter Plot", "Find Extremum", "./images/scatter")
     start_time = time.perf_counter()
-    completion_list = await get_completion_list(prompt_list, 100, 1000)  # Adding a timeout value, which was missing
-    print("Time elapsed: ", time.perf_counter() - start_time, "seconds.")
-    # print(completion_list)
+    # completion_list = await get_completion_list(["Ping", "Pong"], 100, 1000)
 
-    # Save the SVG files
-    save_svg_files(completion_list, "./results/scatter/cluster", "scatter_clustering")
+    completion_list = await get_completion_list(prompt_list, 100, 1000)
+    print("Time elapsed: ", time.perf_counter() - start_time, "seconds.")
+
+
+    # Save the files
+    save_svg_files(completion_list, "./results/scatter/anomaly", "scatter_anomaly")
+    # save_csv_files(completion_list, "./results/scatter/retrieval", "scatter_retrieval")
+
 
 if __name__ == '__main__':
     asyncio.run(main())
