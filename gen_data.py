@@ -5,42 +5,41 @@ import argparse
 
 def generate_scatter_dataset(n_points, correlation_factor, n_clusters, cluster_bias, num_outliers, file_name, output_folder):
     """
-    Generate a scatter plot dataset with a given number of points, correlation factor, number of clusters, and cluster bias.
+    Generate a scatter plot dataset with similar ranges across different datasets,
+    including labels for clusters and outliers.
     """
-    cluster_points = n_points // n_clusters  # Ensure n_points is split evenly among the clusters
-    cluster_separation = cluster_bias # Starting bias for cluster separation
-
+    total_range_start, total_range_end = 0, 20  # Define total range for clusters
+    cluster_points = n_points // n_clusters
+    labels = []
 
     x = np.array([])
     y = np.array([])
 
-    for i in range(n_clusters):
-        # Generate cluster data with increased separation for each cluster
-        x_cluster = np.random.normal(loc=i * 10 + cluster_separation, scale=1.0, size=cluster_points)
+    # Evenly spaced cluster centers
+    cluster_centers = np.linspace(total_range_start, total_range_end, n_clusters, endpoint=False)
+
+    for i, center in enumerate(cluster_centers):
+        # Generate cluster data
+        x_cluster = np.random.normal(loc=center, scale=1.0, size=cluster_points)
         y_cluster = correlation_factor * x_cluster + np.random.normal(loc=0, scale=1.0, size=cluster_points)
         x = np.concatenate([x, x_cluster])
         y = np.concatenate([y, y_cluster])
+        labels += [f'cluster_{i}'] * cluster_points  # Assign cluster label
 
-        # Increase the separation for the next cluster
-        cluster_separation += np.random.uniform(8, 10)  # Adjust this range as needed
+    # Add outliers with controlled placement
+    x_outlier = np.random.uniform(total_range_start - 5, total_range_end + 5, size=num_outliers)
+    y_outlier = np.random.uniform(min(y) - 5, max(y) + 5, size=num_outliers)
+    x = np.concatenate([x, x_outlier])
+    y = np.concatenate([y, y_outlier])
+    labels += ['outlier'] * num_outliers
 
-    
-    # Add an outlier
-    for _ in range(num_outliers):
-        x_outlier = np.random.uniform(np.min(x) - 5, np.max(x) + 5, size=1) 
-        y_outlier = np.random.uniform(np.min(y) - 5, np.max(y) + 5, size=1) 
-        x_outlier = x_outlier * 1.05
-        y_outlier = y_outlier * 1.05
-        x = np.append(x, x_outlier)
-        y = np.append(y, y_outlier)
+    # Create DataFrame
+    df = pd.DataFrame({'X': x, 'Y': y, 'Label': labels})
 
-    # Create a DataFrame
-    df = pd.DataFrame({'X': x, 'Y': y})
-
-    # Check if the folder exists; if not, create it
+    # Ensure the output folder exists
     os.makedirs(output_folder, exist_ok=True)
 
-    # Save to CSV in the specified folder
+    # Save the dataset
     full_path = os.path.join(output_folder, f'{file_name}.csv')
     df.to_csv(full_path, index=False)
 
@@ -119,7 +118,7 @@ def main():
 
     for i in range(n_datasets):
         if data_type == 'scatter':
-            correlation_factor = np.random.uniform(-1, 1)
+            correlation_factor = np.random.uniform(-0.5, 0.5)
             n_outliers = 1
 
             if n_points <= 20: 
