@@ -57,7 +57,7 @@ async def get_completion_list(content_list, max_parallel_calls, timeout=100):
         return [completion_dict[i] for i in range(len(content_list))]
 
 async def main():
-    prompt_list = generate_prompts("Scatter Plot", "Find Anomalies", "unlabeled", "../images/scatter/hard_unlabeled")
+    prompt_list = generate_prompts("Scatter Plot", "Find Extremum", "unlabeled", "../images/scatter/hard_unlabeled")
     start_time = time.perf_counter()
     # completion_list = await get_completion_list(["Ping", "Pong"], 100, 1000)
 
@@ -66,7 +66,7 @@ async def main():
 
 
     # Save the files
-    save_svg_files(completion_list, "../results/scatter/anomaly/hard_unlabeled", "scatter_anomaly")
+    save_svg_files(completion_list, "../results/scatter/extreme/hard_unlabeled", "scatter_anomaly")
     # save_csv_files(completion_list, "../results/scatter/retrieval/hard_unlabeled", "scatter_retrieval")
 
 
