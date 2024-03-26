@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="432pt" height="288pt" viewBox="0 0 432 288" version="1.1">
+  <defs>
+    <style type="text/css">
+      * {
+        stroke-linejoin: round;
+        stroke-linecap: butt;
+      }
+    </style>
+  </defs>
+  <g>
+    <!-- Cluster 1: Blue -->
+    <circle cx="119.765543" cy="61.585169" r="3" style="fill: #1f77b4;"/>
+    <circle cx="106.624195" cy="62.029204" r="3" style="fill: #1f77b4;"/>
+    <circle cx="89.666423" cy="57.252689" r="3" style="fill: #1f77b4;"/>
+    <circle cx="106.748044" cy="77.748095" r="3" style="fill: #1f77b4;"/>
+    <circle cx="126.879099" cy="82.683471" r="3" style="fill: #1f77b4;"/>
+    <circle cx="125.582526" cy="76.002572" r="3" style="fill: #1f77b4;"/>
+    <circle cx="109.373455" cy="74.543586" r="3" style="fill: #1f77b4;"/>
+    
+    <!-- Cluster 2: Red -->
+    <circle cx="230.050689" cy="152.665919" r="3" style="fill: #d62728;"/>
+    <circle cx="235.928844" cy="116.484848" r="3" style="fill: #d62728;"/>
+    <circle cx="217.546646" cy="109.832229" r="3" style="fill: #d62728;"/>
+    <circle cx="218.377687" cy="96.118893" r="3" style="fill: #d62728;"/>
+    <circle cx="224.304608" cy="113.287718" r="3" style="fill: #d62728;"/>
+    <circle cx="249.736149" cy="114.482112" r="3" style="fill: #d62728;"/>
+    <circle cx="250.457147" cy="106.245188" r="3" style="fill: #d62728;"/>
+    
+    <!-- Cluster 3: Green -->
+    <circle cx="311.774073" cy="149.045953" r="3" style="fill: #2ca02c;"/>
+    <circle cx="341.531354" cy="184.664607" r="3" style="fill: #2ca02c;"/>
+    <circle cx="355.858787" cy="187.806525" r="3" style="fill: #2ca02c;"/>
+    <circle cx="355.797711" cy="202.064621" r="3" style="fill: #2ca02c;"/>
+    <circle cx="338.745878" cy="145.724916" r="3" style="fill: #2ca02c;"/>
+    <circle cx="327.348631" cy="154.5811" r="3" style="fill: #2ca02c;"/>
+    <circle cx="329.146848" cy="164.681159" r="3" style="fill: #2ca02c;"/>
+    <circle cx="340.588338" cy="147.822502" r="3" style="fill: #2ca02c;"/>
+  </g>
+</svg>

@@ -125,6 +125,7 @@ def main():
                 n_clusters = 2
             else:
                 n_clusters = 3
+                n_outliers = 2
         
             # n_clusters = np.random.randint(2, 5)
             cluster_bias = np.random.uniform(50, 60)

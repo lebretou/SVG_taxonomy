@@ -10,7 +10,7 @@ from tenacity import (
     wait_random_exponential,
 )
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "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"
 
 headers = {
     "Content-Type": "application/json",
@@ -57,7 +57,7 @@ async def get_completion_list(content_list, max_parallel_calls, timeout=100):
         return [completion_dict[i] for i in range(len(content_list))]
 
 async def main():
-    prompt_list = generate_prompts("Scatter Plot", "Find Extremum", "./images/scatter")
+    prompt_list = generate_prompts("Scatter Plot", "Find Anomalies", "unlabeled", "../images/scatter/hard_unlabeled")
     start_time = time.perf_counter()
     # completion_list = await get_completion_list(["Ping", "Pong"], 100, 1000)
 
@@ -66,8 +66,8 @@ async def main():
 
 
     # Save the files
-    save_svg_files(completion_list, "./results/scatter/anomaly", "scatter_anomaly")
-    # save_csv_files(completion_list, "./results/scatter/retrieval", "scatter_retrieval")
+    save_svg_files(completion_list, "../results/scatter/anomaly/hard_unlabeled", "scatter_anomaly")
+    # save_csv_files(completion_list, "../results/scatter/retrieval/hard_unlabeled", "scatter_retrieval")
 
 
 if __name__ == '__main__':

@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import re
 import argparse
+from adjustText import adjust_text
 
 def extract_number(file_name):
     match = re.search(r'_(\d+)\.csv$', file_name)
@@ -26,9 +27,15 @@ def plot_scatter(source_folder, target_folder, label):
         plt.figure(figsize=(6, 4),facecolor='none')
         plt.scatter(df['X'], df['Y'], alpha=0.6)
 
+        # if label:
+        #     for i in range(len(df['X'])):
+        #         plt.text(df['X'][i], df['Y'][i], f"({df['X'][i]:.2f}, {df['Y'][i]:.2f})", fontsize=8)
         if label:
+            texts = []
             for i in range(len(df['X'])):
-                plt.text(df['X'][i], df['Y'][i], f"({df['X'][i]:.2f}, {df['Y'][i]:.2f})", fontsize=8)
+                texts.append(plt.text(df['X'][i], df['Y'][i], f"({df['X'][i]:.2f}, {df['Y'][i]:.2f})", fontsize=8))
+
+            adjust_text(texts)
         
         # Omit titles, grid lines, and labels
         plt.title('')
@@ -64,9 +71,14 @@ def plot_line(source_folder, target_folder, label):
         # Add markers to the data points
         plt.scatter(df['X'], df['Y'], alpha=0.8)
 
-        if label:
-            for i in range(len(df['X'])):
-                plt.text(df['X'][i], df['Y'][i], f"({df['X'][i]:.2f}, {df['Y'][i]:.2f})", fontsize=8)
+        # if label:
+        #     for i in range(len(df['X'])):
+        #         plt.text(df['X'][i], df['Y'][i], f"({df['X'][i]:.2f}, {df['Y'][i]:.2f})", fontsize=8)
+        texts = []
+        for i in range(len(df['X'])):
+            texts.append(plt.text(df['X'][i], df['Y'][i], f"({df['X'][i]:.2f}, {df['Y'][i]:.2f})", fontsize=8))
+
+        adjust_text(texts)
         
         # Omit titles, grid lines, and labels
         plt.title('')
@@ -105,10 +117,16 @@ def plot_bar(source_folder, target_folder, label):
         plt.bar(df['X'], df['Y'], width=0.8)
         
         # Add data value labels if specified
-        if label:
-            for i in range(len(df['X'])):
-                plt.text(df['X'][i], df['Y'][i], f"{df['Y'][i]:.2f}", ha='center', va='bottom', fontsize=8)
+        # if label:
+        #     for i in range(len(df['X'])):
+        #         plt.text(df['X'][i], df['Y'][i], f"{df['Y'][i]:.2f}", ha='center', va='bottom', fontsize=8)
         
+        texts = []
+        for i in range(len(df['X'])):
+            texts.append(plt.text(df['X'][i], df['Y'][i], f"({df['X'][i]:.2f}, {df['Y'][i]:.2f})", fontsize=8))
+        
+        adjust_text(texts)
+
         # Omit titles, grid lines, and labels
         plt.title('')
         plt.grid(False)
