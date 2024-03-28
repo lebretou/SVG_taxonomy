@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="line_chart">
+    <path d="M 69.218182 132.517925 L 81.9 127.611167 L 94.581818 116.62501 L 107.263636 136.259755 L 119.945455 117.817545 L 132.627273 133.606418 L 145.309091 162.832315 L 157.990909 125.101243 L 170.672727 135.716019 L 183.354545 144.296663 L 196.036364 131.565916 L 208.718182 122.675215 L 221.4 158.109825 L 234.081818 246.24 L 246.763636 153.652811 L 259.445455 128.96026 L 272.127273 159.356907 L 284.809091 44.64 L 297.490909 150.327173 L 310.172727 160.217411 L 322.854545 184.337486 L 335.536364 173.34339 L 348.218182 175.018743 L 360.9 187.61839 L 373.581818 161.887245" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
+    <!-- Outlier points -->
+    <circle cx="234.081818" cy="246.24" r="3" style="fill: red;"/>
+    <circle cx="284.809091" cy="44.64" r="3" style="fill: red;"/>
+  </g>
+ </g>
+</svg>

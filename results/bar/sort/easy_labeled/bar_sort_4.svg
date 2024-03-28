@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g>
+  <!-- Bar 1: Y=23.80 -->
+  <rect x="10" y="10" width="40" height="238" style="fill: #1f77b4"/>
+  <text x="30" y="260" font-size="12" text-anchor="middle" fill="black">23.80</text>
+  <!-- Bar 2: Y=9.99 -->
+  <rect x="60" y="100" width="40" height="148" style="fill: #1f77b4"/>
+  <text x="80" y="260" font-size="12" text-anchor="middle" fill="black">9.99</text>
+  <!-- Bar 3: Y=9.95 -->
+  <rect x="110" y="101" width="40" height="147" style="fill: #1f77b4"/>
+  <text x="130" y="260" font-size="12" text-anchor="middle" fill="black">9.95</text>
+  <!-- Bar 4: Y=9.42 -->
+  <rect x="160" y="106" width="40" height="142" style="fill: #1f77b4"/>
+  <text x="180" y="260" font-size="12" text-anchor="middle" fill="black">9.42</text>
+  <!-- Bar 5: Y=8.59 -->
+  <rect x="210" y="114" width="40" height="134" style="fill: #1f77b4"/>
+  <text x="230" y="260" font-size="12" text-anchor="middle" fill="black">8.59</text>
+  <!-- Bar 6: Y=7.33 -->
+  <rect x="260" y="126" width="40" height="122" style="fill: #1f77b4"/>
+  <text x="280" y="260" font-size="12" text-anchor="middle" fill="black">7.33</text>
+  <!-- Bar 7: Y=6.81 -->
+  <rect x="310" y="132" width="40" height="116" style="fill: #1f77b4"/>
+  <text x="330" y="260" font-size="12" text-anchor="middle" fill="black">6.81</text>
+  <!-- Bar 8: Y=6.61 -->
+  <rect x="360" y="134" width="40" height="114" style="fill: #1f77b4"/>
+  <text x="380" y="260" font-size="12" text-anchor="middle" fill="black">6.61</text>
+  <!-- Bar 9: Y=6.13 -->
+  <rect x="410" y="138" width="40" height="110" style="fill: #1f77b4"/>
+  <text x="430" y="260" font-size="12" text-anchor="middle" fill="black">6.13</text>
+  <!-- Bar 10: Y=5.55 -->
+  <rect x="460" y="144" width="40" height="104" style="fill: #1f77b4"/>
+  <text x="480" y="260" font-size="12" text-anchor="middle" fill="black">5.55</text>
+ </g>
+</svg>

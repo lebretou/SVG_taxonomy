@@ -54,12 +54,12 @@ def generate_line_dataset(n_points, correlation_factor, num_spikes, num_drops, f
     # Add unusual spikes
     spike_indices = np.random.choice(range(1, n_points - 1), size=num_spikes, replace=False)
     for idx in spike_indices:
-        y[idx] += np.random.uniform(10, 12)  
+        y[idx] += np.random.uniform(18, 20)  
     
     # Add unusual drops
     drop_indices = np.random.choice(range(1, n_points - 1), size=num_drops, replace=False)
     for idx in drop_indices:
-        y[idx] -= np.random.uniform(10, 12)  
+        y[idx] -= np.random.uniform(18, 20)  
     
     # Create a DataFrame
     df = pd.DataFrame({'X': x, 'Y': y})
@@ -83,12 +83,12 @@ def generate_bar_dataset(n_points, num_spikes, num_drops, file_name, output_fold
     # Add unusual spikes
     spike_indices = np.random.choice(range(1, n_points - 1), size=num_spikes, replace=False)
     for idx in spike_indices:
-        y[idx] += np.random.uniform(13, 15)
+        y[idx] += np.random.uniform(18, 20)
     
-    # Add unusual drops (ensure non-negative values)
+    # # Add unusual drops (ensure non-negative values)
     drop_indices = np.random.choice(range(1, n_points - 1), size=num_drops, replace=False)
     for idx in drop_indices:
-        drop_value = np.random.uniform(5, 8)
+        drop_value = np.random.uniform(10, 15)
         y[idx] = max(0.5, y[idx] - drop_value)
     
     # Create a DataFrame
@@ -134,12 +134,13 @@ def main():
         elif data_type == 'line':
             correlation_factor = np.random.uniform(-0.6, 0.6)
             num_spikes = np.random.randint(1, 2)
-            num_drops = np.random.randint(1, 2)
+            # num_drops = np.random.randint(1, 2)
+            num_drops = 0
             file_name = f"line_data_{i}"
             generate_line_dataset(n_points, correlation_factor, num_spikes, num_drops, file_name, output_folder)
         elif data_type == 'bar':
-            num_spikes = np.random.randint(1, 2)
-            num_drops = np.random.randint(1, 2)
+            num_spikes = 1
+            num_drops = 1
             file_name = f"bar_data_{i}"
             generate_bar_dataset(n_points, num_spikes, num_drops, file_name, output_folder)
 

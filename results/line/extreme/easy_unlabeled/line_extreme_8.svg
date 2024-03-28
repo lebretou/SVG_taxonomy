@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="axes_1">
+   <g id="line2d_13">
+    <path d="M 69.218182 82.935139 
+L 103.036364 44.64 
+L 136.854545 112.303812 
+L 170.672727 117.369933 
+L 204.490909 126.047169 
+L 238.309091 156.846999 
+L 272.127273 246.24 
+L 305.945455 181.967878 
+L 339.763636 137.446878 
+L 373.581818 182.485184 
+" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
+   </g>
+   <g id="mean_line">
+    <path d="M 54 137.446878 
+L 388.8 137.446878 
+" style="fill: none; stroke: #ff7f0e; stroke-width: 1.5; stroke-dasharray: 5,5; stroke-linecap: square"/>
+   </g>
+  </g>
+ </g>
+</svg>

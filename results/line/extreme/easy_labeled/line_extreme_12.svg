@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="432pt" height="288pt" viewBox="0 0 432 288">
+<g id="surface1">
+<g style="stroke:black; stroke-width:1;">
+    <path style="stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 54 34.56 L 388.8 34.56 L 388.8 256.32 L 54 256.32 Z M 54 34.56 "/>
+    <path style="fill:none;stroke:rgb(31.372549%,46.666667%,70.588235%);stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;" d="M 69.218182 200.085832 L 103.036364 44.64 L 136.854545 246.24 L 170.672727 216.517381 L 204.490909 202.972849 L 238.309091 198.578661 L 272.127273 208.618275 L 305.945455 198.160013 L 339.763636 174.705335 L 373.581818 199.542939 "/>
+    <circle cx="103.036364" cy="44.64" r="3" style="fill:red;stroke:red;stroke-width:1;"/>
+    <circle cx="136.854545" cy="246.24" r="3" style="fill:blue;stroke:blue;stroke-width:1;"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <g>
+   <rect x="57.348" y="211.40098" width="26.784" height="44.91902" style="fill: #1f77b4"/>
+   <rect x="90.828" y="214.780398" width="26.784" height="41.539602" style="fill: #1f77b4"/>
+   <rect x="124.308" y="199.889816" width="26.784" height="56.430184" style="fill: #1f77b4"/>
+   <rect x="157.788" y="196.45538" width="26.784" height="59.86462" style="fill: #1f77b4"/>
+   <rect x="191.268" y="205.243703" width="26.784" height="51.076297" style="fill: #1f77b4"/>
+   <rect x="224.748" y="199.103591" width="26.784" height="57.216409" style="fill: #1f77b4"/>
+   <rect x="258.228" y="187.756447" width="26.784" height="68.563553" style="fill: #1f77b4"/>
+   <rect x="291.708" y="201.417468" width="26.784" height="54.902532" style="fill: #1f77b4"/>
+   <rect x="325.188" y="54.72" width="26.784" height="201.6" style="fill: red"/> <!-- Highlighted lowest bin -->
+   <rect x="358.668" y="216.031288" width="26.784" height="40.288712" style="fill: #1f77b4"/>
+ </g>
+</svg>

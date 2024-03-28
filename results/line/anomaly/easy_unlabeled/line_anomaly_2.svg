@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  <path id="m1c6a8b97f1" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z"/>
+ </defs>
+ <g id="figure_1">
+  <g id="line2d_11">
+    <path d="M 69.218182 226.229703 
+L 103.036364 221.055287 
+L 136.854545 229.156318 
+L 170.672727 203.425476 
+L 204.490909 246.24 
+L 238.309091 44.64 
+L 272.127273 226.607126 
+L 305.945455 218.50288 
+L 339.763636 205.435651 
+L 373.581818 197.022147 
+" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
+  </g>
+  <g id="PathCollection_1">
+    <use xlink:href="#m1c6a8b97f1" x="69.218182" y="226.229703" style="fill: #1f77b4; stroke: #1f77b4"/>
+    <use xlink:href="#m1c6a8b97f1" x="103.036364" y="221.055287" style="fill: #1f77b4; stroke: #1f77b4"/>
+    <use xlink:href="#m1c6a8b97f1" x="136.854545" y="229.156318" style="fill: #1f77b4; stroke: #1f77b4"/>
+    <use xlink:href="#m1c6a8b97f1" x="170.672727" y="203.425476" style="fill: #1f77b4; stroke: #1f77b4"/>
+    <use xlink:href="#m1c6a8b97f1" x="204.490909" y="246.24" style="fill: #ff0000; stroke: #ff0000"/>
+    <use xlink:href="#m1c6a8b97f1" x="238.309091" y="44.64" style="fill: #ff0000; stroke: #ff0000"/>
+    <use xlink:href="#m1c6a8b97f1" x="272.127273" y="226.607126" style="fill: #1f77b4; stroke: #1f77b4"/>
+    <use xlink:href="#m1c6a8b97f1" x="305.945455" y="218.50288" style="fill: #1f77b4; stroke: #1f77b4"/>
+    <use xlink:href="#m1c6a8b97f1" x="339.763636" y="205.435651" style="fill: #1f77b4; stroke: #1f77b4"/>
+    <use xlink:href="#m1c6a8b97f1" x="373.581818" y="197.022147" style="fill: #1f77b4; stroke: #1f77b4"/>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="200pt" height="200pt" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Bar 1 -->
+  <rect x="20" y="100" width="20" height="50" style="fill: #1f77b4"/>
+  <text x="30" y="95" font-size="10" text-anchor="middle" fill="black">8.59</text>
+  <!-- Bar 2 -->
+  <rect x="60" y="80" width="20" height="70" style="fill: #1f77b4"/>
+  <text x="70" y="75" font-size="10" text-anchor="middle" fill="black">9.95</text>
+  <!-- Bar 3 -->
+  <rect x="100" y="120" width="20" height="30" style="fill: #1f77b4"/>
+  <text x="110" y="115" font-size="10" text-anchor="middle" fill="black">6.81</text>
+  <!-- Bar 4 -->
+  <rect x="140" y="110" width="20" height="40" style="fill: #1f77b4"/>
+  <text x="150" y="105" font-size="10" text-anchor="middle" fill="black">9.99</text>
+</svg>

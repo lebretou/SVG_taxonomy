@@ -1,0 +1,65 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <defs>
+    <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  </defs>
+  <g>
+    <g>
+      <path d="M 0 288 L 432 288 L 432 0 L 0 0 L 0 288 z" style="fill: none"/>
+    </g>
+    <g>
+      <path d="M 54 256.32 L 388.8 256.32 L 388.8 34.56 L 54 34.56 z" style="fill: #ffffff"/>
+    </g>
+    <!-- Bin 8 -->
+    <g>
+      <path d="M 57.348 256.32 L 84.132 256.32 L 84.132 54.72 L 57.348 54.72 z" style="fill: #1f77b4"/>
+      <text x="70.74" y="40" font-family="Arial" font-size="10" fill="black" text-anchor="middle">28.01</text>
+    </g>
+    <!-- Bin 6 -->
+    <g>
+      <path d="M 90.828 256.32 L 117.612 256.32 L 117.612 187.756447 L 90.828 187.756447 z" style="fill: #1f77b4"/>
+      <text x="104.22" y="173" font-family="Arial" font-size="10" fill="black" text-anchor="middle">9.53</text>
+    </g>
+    <!-- Bin 3 -->
+    <g>
+      <path d="M 124.308 256.32 L 151.092 256.32 L 151.092 196.45538 L 124.308 196.45538 z" style="fill: #1f77b4"/>
+      <text x="137.7" y="182" font-family="Arial" font-size="10" fill="black" text-anchor="middle">8.32</text>
+    </g>
+    <!-- Bin 5 -->
+    <g>
+      <path d="M 157.788 256.32 L 184.572 256.32 L 184.572 199.103591 L 157.788 199.103591 z" style="fill: #1f77b4"/>
+      <text x="171.18" y="185" font-family="Arial" font-size="10" fill="black" text-anchor="middle">7.95</text>
+    </g>
+    <!-- Bin 7 -->
+    <g>
+      <path d="M 191.268 256.32 L 218.052 256.32 L 218.052 199.889816 L 191.268 199.889816 z" style="fill: #1f77b4"/>
+      <text x="204.66" y="185" font-family="Arial" font-size="10" fill="black" text-anchor="middle">7.84</text>
+    </g>
+    <!-- Bin 9 -->
+    <g>
+      <path d="M 224.748 256.32 L 251.532 256.32 L 251.532 216.031288 L 224.748 216.031288 z" style="fill: #1f77b4"/>
+      <text x="238.14" y="202" font-family="Arial" font-size="10" fill="black" text-anchor="middle">5.60</text>
+    </g>
+    <!-- Bin 4 -->
+    <g>
+      <path d="M 258.228 256.32 L 285.012 256.32 L 285.012 205.243703 L 258.228 205.243703 z" style="fill: #1f77b4"/>
+      <text x="271.62" y="191" font-family="Arial" font-size="10" fill="black" text-anchor="middle">7.10</text>
+    </g>
+    <!-- Bin 2 -->
+    <g>
+      <path d="M 291.708 256.32 L 318.492 256.32 L 318.492 214.780398 L 291.708 214.780398 z" style="fill: #1f77b4"/>
+      <text x="305.1" y="200" font-family="Arial" font-size="10" fill="black" text-anchor="middle">5.77</text>
+    </g>
+    <!-- Bin 1 -->
+    <g>
+      <path d="M 325.188 256.32 L 351.972 256.32 L 351.972 211.40098 L 325.188 211.40098 z" style="fill: #1f77b4"/>
+      <text x="338.58" y="197" font-family="Arial" font-size="10" fill="black" text-anchor="middle">6.24</text>
+    </g>
+    <!-- Bin 0 -->
+    <g>
+      <path d="M 358.668 256.32 L 385.452 256.32 L 385.452 201.417468 L 358.668 201.417468 z" style="fill: #1f77b4"/>
+      <text x="372.06" y="187" font-family="Arial" font-size="10" fill="black" text-anchor="middle">7.63</text>
+    </g>
+  </g>
+</svg>

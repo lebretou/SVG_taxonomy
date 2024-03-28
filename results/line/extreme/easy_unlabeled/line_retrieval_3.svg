@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="axes_1">
+   <g id="line2d_12">
+    <path d="M 69.218182 219.303388 
+L 103.036364 180.4174 
+L 136.854545 191.490836 
+L 170.672727 246.24 
+L 204.490909 92.364922 
+L 238.309091 138.255173 
+L 272.127273 161.160444 
+L 305.945455 208.674759 
+L 339.763636 76.403962 
+L 373.581818 44.64 
+" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_13">
+    <path d="M 54 156.48 
+L 388.8 156.48 
+" style="fill: none; stroke: #ff7f0e; stroke-width: 1.5; stroke-linecap: square; stroke-dasharray: 5,5"/>
+   </g>
+  </g>
+ </g>
+</svg>

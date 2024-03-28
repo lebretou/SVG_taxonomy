@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  <path id="mdd3a757fbb" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z" style="stroke: #1f77b4; stroke-opacity: 0.8"/>
+ </defs>
+ <g>
+  <path d="M 69.218182 124.13401 
+L 81.9 98.325038 
+L 94.581818 124.657366 
+L 107.263636 116.554201 
+L 119.945455 44.64 
+L 132.627273 132.697924 
+L 145.309091 127.255567 
+L 157.990909 135.329912 
+L 170.672727 131.658012 
+L 183.354545 140.848905 
+L 196.036364 138.826676 
+L 208.718182 159.778451 
+L 221.4 160.418149 
+L 234.081818 153.785195 
+L 246.763636 156.939553 
+L 259.445455 166.65854 
+L 272.127273 179.348737 
+L 284.809091 246.24 
+L 297.490909 152.006698 
+L 310.172727 173.233969 
+L 322.854545 178.641841 
+L 335.536364 181.350363 
+L 348.218182 194.78881 
+L 360.9 181.672402 
+L 373.581818 181.084112" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
+  <!-- Highlighting the lowest point -->
+  <use xlink:href="#mdd3a757fbb" x="119.945455" y="44.64" style="fill: red; fill-opacity: 0.8; stroke: red; stroke-opacity: 0.8"/>
+  <!-- Highlighting the highest point -->
+  <use xlink:href="#mdd3a757fbb" x="284.809091" y="246.24" style="fill: green; fill-opacity: 0.8; stroke: green; stroke-opacity: 0.8"/>
+ </g>
+</svg>

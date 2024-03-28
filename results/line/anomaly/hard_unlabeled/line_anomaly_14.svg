@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g>
+  <g>
+    <path d="M 69.218182 86.319451 L 81.9 114.780016 L 94.581818 102.179208 L 107.263636 124.894294 L 119.945455 108.516398 L 132.627273 107.01847 L 145.309091 119.920292 L 157.990909 116.21261 L 170.672727 112.270961 L 183.354545 110.999686 L 196.036364 44.64 L 208.718182 136.700992 L 221.4 147.372062 L 234.081818 246.24 L 246.763636 151.868768 L 259.445455 146.401251 L 272.127273 153.466936 L 284.809091 148.386713 L 297.490909 161.727633 L 310.172727 149.356192 L 322.854545 164.648426 L 335.536364 165.394412 L 348.218182 179.389346 L 360.9 173.098696 L 373.581818 209.403251" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
+    <!-- Outlier points -->
+    <circle cx="196.036364" cy="44.64" r="3" style="fill: red;"/>
+    <circle cx="234.081818" cy="246.24" r="3" style="fill: red;"/>
+  </g>
+ </g>
+</svg>

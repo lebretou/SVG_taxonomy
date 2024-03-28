@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="line_chart">
+    <path d="M 69.218182 217.528813 L 103.036364 199.427032 L 136.854545 226.013459 L 170.672727 220.542089 L 204.490909 234.37086 L 238.309091 222.533632 L 272.127273 205.354853 L 305.945455 221.000594 L 339.763636 44.64 L 373.581818 246.24" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
+    <!-- Fitted line using linear regression (dummy values) -->
+    <path d="M 69.218182 230 L 373.581818 50" style="fill: none; stroke: #ff7f0e; stroke-width: 1.5; stroke-linecap: square; stroke-dasharray: 5,5"/>
+  </g>
+ </g>
+</svg>

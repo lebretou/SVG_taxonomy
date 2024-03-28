@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Bar for X=3 -->
+    <rect x="20" y="50" width="20" height="150" style="fill:blue" />
+    <text x="20" y="45" font-family="Verdana" font-size="12" fill="black">9.55</text>
+    <!-- Bar for X=4 -->
+    <rect x="60" y="40" width="20" height="160" style="fill:blue" />
+    <text x="60" y="35" font-family="Verdana" font-size="12" fill="black">9.79</text>
+    <!-- Bar for X=5 -->
+    <rect x="100" y="100" width="20" height="100" style="fill:blue" />
+    <text x="100" y="95" font-family="Verdana" font-size="12" fill="black">5.62</text>
+    <!-- Bar for X=6 -->
+    <rect x="140" y="60" width="20" height="140" style="fill:blue" />
+    <text x="140" y="55" font-family="Verdana" font-size="12" fill="black">8.62</text>
+    <!-- Bar for X=7 -->
+    <rect x="180" y="90" width="20" height="110" style="fill:blue" />
+    <text x="180" y="85" font-family="Verdana" font-size="12" fill="black">5.91</text>
+</svg>

@@ -1,0 +1,81 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="432pt" height="288pt" viewBox="0 0 432 288">
+<g transform="translate(0,288) scale(0.1,-0.1)" fill="#000000" stroke="none">
+    <!-- Drawing bars -->
+    <!-- Bar 1 -->
+    <rect x="100" y="2000" width="200" height="500" fill="#1f77b4"/>
+    <text x="150" y="1950" font-family="Verdana" font-size="100" fill="#000000">6.66</text>
+    <!-- Bar 2 -->
+    <rect x="400" y="2050" width="200" height="450" fill="#1f77b4"/>
+    <text x="450" y="2000" font-family="Verdana" font-size="100" fill="#000000">6.51</text>
+    <!-- Bar 3 -->
+    <rect x="700" y="2275" width="200" height="225" fill="#1f77b4"/>
+    <text x="750" y="2225" font-family="Verdana" font-size="100" fill="#000000">5.73</text>
+    <!-- Bar 4 -->
+    <rect x="1000" y="2040" width="200" height="460" fill="#1f77b4"/>
+    <text x="1050" y="1990" font-family="Verdana" font-size="100" fill="#000000">6.56</text>
+    <!-- Bar 5 -->
+    <rect x="1300" y="1810" width="200" height="690" fill="#1f77b4"/>
+    <text x="1350" y="1760" font-family="Verdana" font-size="100" fill="#000000">7.82</text>
+    <!-- Bar 6 (Lowest) -->
+    <rect x="1600" y="2750" width="200" height="250" fill="#d62728"/>
+    <text x="1650" y="2700" font-family="Verdana" font-size="100" fill="#000000">0.50</text>
+    <!-- Bar 7 -->
+    <rect x="1900" y="1250" width="200" height="1250" fill="#1f77b4"/>
+    <text x="1950" y="1200" font-family="Verdana" font-size="100" fill="#000000">8.74</text>
+    <!-- Bar 8 -->
+    <rect x="2200" y="1930" width="200" height="570" fill="#1f77b4"/>
+    <text x="2250" y="1880" font-family="Verdana" font-size="100" fill="#000000">7.10</text>
+    <!-- Bar 9 (Highest) -->
+    <rect x="2500" y="500" width="200" height="2000" fill="#2ca02c"/>
+    <text x="2550" y="450" font-family="Verdana" font-size="100" fill="#000000">25.10</text>
+    <!-- Bar 10 -->
+    <rect x="2800" y="1040" width="200" height="1460" fill="#1f77b4"/>
+    <text x="2850" y="990" font-family="Verdana" font-size="100" fill="#000000">9.59</text>
+    <!-- Bar 11 -->
+    <rect x="3100" y="1036" width="200" height="1464" fill="#1f77b4"/>
+    <text x="3150" y="986" font-family="Verdana" font-size="100" fill="#000000">9.63</text>
+    <!-- Bar 12 -->
+    <rect x="3400" y="2240" width="200" height="260" fill="#1f77b4"/>
+    <text x="3450" y="2190" font-family="Verdana" font-size="100" fill="#000000">5.76</text>
+    <!-- Bar 13 -->
+    <rect x="3700" y="2072" width="200" height="428" fill="#1f77b4"/>
+    <text x="3750" y="2022" font-family="Verdana" font-size="100" fill="#000000">6.73</text>
+    <!-- Bar 14 -->
+    <rect x="4000" y="2740" width="200" height="260" fill="#1f77b4"/>
+    <text x="4050" y="2690" font-family="Verdana" font-size="100" fill="#000000">5.26</text>
+    <!-- Bar 15 -->
+    <rect x="4300" y="2080" width="200" height="420" fill="#1f77b4"/>
+    <text x="4350" y="2030" font-family="Verdana" font-size="100" fill="#000000">6.80</text>
+    <!-- Bar 16 -->
+    <rect x="4600" y="1330" width="200" height="1170" fill="#1f77b4"/>
+    <text x="4650" y="1280" font-family="Verdana" font-size="100" fill="#000000">8.67</text>
+    <!-- Bar 17 -->
+    <rect x="4900" y="1410" width="200" height="1090" fill="#1f77b4"/>
+    <text x="4950" y="1360" font-family="Verdana" font-size="100" fill="#000000">8.59</text>
+    <!-- Bar 18 -->
+    <rect x="5200" y="2730" width="200" height="270" fill="#1f77b4"/>
+    <text x="5250" y="2680" font-family="Verdana" font-size="100" fill="#000000">6.27</text>
+    <!-- Bar 19 -->
+    <rect x="5500" y="2585" width="200" height="415" fill="#1f77b4"/>
+    <text x="5550" y="2535" font-family="Verdana" font-size="100" fill="#000000">5.42</text>
+    <!-- Bar 20 -->
+    <rect x="5800" y="1010" width="200" height="1490" fill="#1f77b4"/>
+    <text x="5850" y="960" font-family="Verdana" font-size="100" fill="#000000">9.90</text>
+    <!-- Bar 21 -->
+    <rect x="6100" y="1925" width="200" height="575" fill="#1f77b4"/>
+    <text x="6150" y="1875" font-family="Verdana" font-size="100" fill="#000000">7.35</text>
+    <!-- Bar 22 -->
+    <rect x="6400" y="1003" width="200" height="1497" fill="#1f77b4"/>
+    <text x="6450" y="953" font-family="Verdana" font-size="100" fill="#000000">9.97</text>
+    <!-- Bar 23 -->
+    <rect x="6700" y="1038" width="200" height="1462" fill="#1f77b4"/>
+    <text x="6750" y="988" font-family="Verdana" font-size="100" fill="#000000">9.62</text>
+    <!-- Bar 24 -->
+    <rect x="7000" y="1921" width="200" height="579" fill="#1f77b4"/>
+    <text x="7050" y="1871" font-family="Verdana" font-size="100" fill="#000000">7.39</text>
+</g>
+</svg>

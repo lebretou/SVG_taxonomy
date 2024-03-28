@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 288 
+L 432 288 
+L 432 0 
+L 0 0 
+L 0 288 
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="PathCollection_1">
+    <defs>
+     <path id="m7e87c8a516" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #1f77b4; stroke-opacity: 0.6"/>
+    </defs>
+    <g clip-path="url(#p5aeecfb374)">
+     <!-- Cluster 1 -->
+     <use xlink:href="#m7e87c8a516" x="119.765543" y="61.585169" style="fill: #ff0000; fill-opacity: 0.6; stroke: #ff0000; stroke-opacity: 0.6"/>
+     <use xlink:href="#m7e87c8a516" x="106.624195" y="62.029204" style="fill: #ff0000; fill-opacity: 0.6; stroke: #ff0000; stroke-opacity: 0.6"/>
+     <use xlink:href="#m7e87c8a516" x="106.748044" y="77.748095" style="fill: #ff0000; fill-opacity: 0.6; stroke: #ff0000; stroke-opacity: 0.6"/>
+     <use xlink:href="#m7e87c8a516" x="126.879099" y="82.683471" style="fill: #ff0000; fill-opacity: 0.6; stroke: #ff0000; stroke-opacity: 0.6"/>
+     <use xlink:href="#m7e87c8a516" x="125.582526" y="76.002572" style="fill: #ff0000; fill-opacity: 0.6; stroke: #ff0000; stroke-opacity: 0.6"/>
+     <use xlink:href="#m7e87c8a516" x="109.373455" y="74.543586" style="fill: #ff0000; fill-opacity: 0.6; stroke: #ff0000; stroke-opacity: 0.6"/>
+     <!-- Cluster 2 -->
+     <use xlink:href="#m7e87c8a516" x="230.050689" y="152.665919" style="fill: #00ff00; fill-opacity: 0.6; stroke: #00ff00; stroke-opacity: 0.6"/>
+     <use xlink:href="#m7e87c8a516" x="228.734036" y="120.251862" style="fill: #00ff00; fill-opacity: 0.6; stroke: #00ff00; stroke-opacity: 0.6"/>
+     <use xlink:href="#m7e87c8a516" x="235.928844" y="116.484848" style="fill: #00ff00; fill-opacity: 0.6; stroke: #00ff00; stroke-opacity: 0.6"/>
+     <use xlink:href="#m7e87c8a516" x="217.546646" y="109.832229" style="fill: #00ff00; fill-opacity: 0.6; stroke: #00ff00; stroke-opacity: 0.6"/>
+     <use xlink:href="#m7e87c8a516" x="216.350151" y="116.18264" style="fill: #00ff00; fill-opacity: 0.6; stroke: #00ff00; stroke-opacity: 0.6"/>
+     <use xlink:href="#m7e87c8a516" x="218.377687" y="96.118893" style="fill: #00ff00; fill-opacity: 0.6; stroke: #00ff00; stroke-opacity: 0.6"/>
+     <use xlink:href="#m7e87c8a516" x="241.221029" y="120.09274" style="fill: #00ff00; fill-opacity: 0.6; stroke: #00ff00; stroke-opacity: 0.6"/>
+     <!-- Cluster 3 -->
+     <use xlink:href="#m7e87c8a516" x="311.774073" y="149.045953" style="fill: #0000ff; fill-opacity: 0.6; stroke: #0000ff; stroke-opacity: 0.6"/>
+     <use xlink:href="#m7e87c8a516" x="321.253625" y="175.081508" style="fill: #0000ff; fill-opacity: 0.6; stroke: #0000ff; stroke-opacity: 0.6"/>
+     <use xlink:href="#m7e87c8a516" x="313.330472" y="108.480328" style="fill: #0000ff; fill-opacity: 0.6; stroke: #0000ff; stroke-opacity: 0.6"/>
+     <use xlink:href="#m7e87c8a516" x="341.531354" y="184.664607" style="fill: #0000ff; fill-opacity: 0.6; stroke: #0000ff; stroke-opacity: 0.6"/>
+     <use xlink:href="#m7e87c8a516" x="355.858787" y="187.806525" style="fill: #0000ff; fill-opacity: 0.6; stroke: #0000ff; stroke-opacity: 0.6"/>
+     <use xlink:href="#m7e87c8a516" x="322.056406" y="170.87343" style="fill: #0000ff; fill-opacity: 0.6; stroke: #0000ff; stroke-opacity: 0.6"/>
+     <use xlink:href="#m7e87c8a516" x="355.797711" y="202.064621" style="fill: #0000ff; fill-opacity: 0.6; stroke: #0000ff; stroke-opacity: 0.6"/>
+     <use xlink:href="#m7e87c8a516" x="341.699477" y="142.338466" style="fill: #0000ff; fill-opacity: 0.6; stroke: #0000ff; stroke-opacity: 0.6"/>
+     <!-- Cluster 4 -->
+     <use xlink:href="#m7e87c8a516" x="121.349163" y="246.24" style="fill: #ffff00; fill-opacity: 0.6; stroke: #ffff00; stroke-opacity: 0.6"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p5aeecfb374">
+   <rect x="54" y="34.56" width="334.8" height="221.76"/>
+  </clipPath>
+ </defs>
+</svg>

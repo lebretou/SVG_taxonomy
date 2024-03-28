@@ -1,0 +1,9 @@
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <g>
+  <path d="M 69.218182 212.341469 L 103.036364 239.34233 L 136.854545 44.64 L 170.672727 220.37163 L 204.490909 237.000666 L 238.309091 216.499036 L 272.127273 246.24 L 305.945455 224.541312 L 339.763636 213.307636 L 373.581818 231.789602" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
+  <!-- Fitted line using linear regression (example, not based on actual data points) -->
+  <path d="M 69.218182 230 L 373.581818 50" style="fill: none; stroke: #ff7f0e; stroke-width: 1.5; stroke-linecap: square"/>
+ </g>
+</svg>

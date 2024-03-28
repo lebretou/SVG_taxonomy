@@ -3,14 +3,14 @@ import aiohttp
 import time
 import gen_prompt
 from gen_prompt import generate_prompts
-from post_process import save_svg_files, save_csv_files
+from post_process import save_svg_files, save_csv_files, save_value_files
 from tenacity import (
     retry,
     stop_after_attempt,
     wait_random_exponential,
 )
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = ""
 
 headers = {
     "Content-Type": "application/json",
@@ -57,7 +57,7 @@ async def get_completion_list(content_list, max_parallel_calls, timeout=100):
         return [completion_dict[i] for i in range(len(content_list))]
 
 async def main():
-    prompt_list = generate_prompts("Scatter Plot", "Find Extremum", "unlabeled", "../images/scatter/hard_unlabeled")
+    prompt_list = generate_prompts("Bar Plot", "Sort", "unlabeled", "../images/bar/hard_unlabeled")
     start_time = time.perf_counter()
     # completion_list = await get_completion_list(["Ping", "Pong"], 100, 1000)
 
@@ -66,8 +66,9 @@ async def main():
 
 
     # Save the files
-    save_svg_files(completion_list, "../results/scatter/extreme/hard_unlabeled", "scatter_anomaly")
-    # save_csv_files(completion_list, "../results/scatter/retrieval/hard_unlabeled", "scatter_retrieval")
+    save_svg_files(completion_list, "../results/bar/sort/hard_unlabeled", "bar_sort")
+    # save_csv_files(completion_list, "../results/bar/filter/easy_unlabeled", "bar_filter")
+    # save_value_files(completion_list, "../results/bar/range/easy_labeled", "bar_range.txt")
 
 
 if __name__ == '__main__':

@@ -1,0 +1,65 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="432pt" height="288pt" viewBox="0 0 432 288" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g id="figure_1">
+    <g id="patch_1">
+      <path d="M 0 288 L 432 288 L 432 0 L 0 0 z" style="fill: none"/>
+    </g>
+    <g id="axes_1">
+      <g id="patch_2">
+        <path d="M 54 256.32 L 388.8 256.32 L 388.8 34.56 L 54 34.56 z" style="fill: #ffffff"/>
+      </g>
+      <!-- Bars sorted in descending order based on their Y values (heights) -->
+      <!-- Bar 5 (24.25) -->
+      <g id="patch_8">
+        <path d="M 57.348 256.32 L 84.132 256.32 L 84.132 54.72 L 57.348 54.72 z" style="fill: #1f77b4"/>
+        <text x="70.74" y="40" fill="black" font-size="10" text-anchor="middle">24.25</text>
+      </g>
+      <!-- Bar 7 (9.13) -->
+      <g id="patch_9">
+        <path d="M 90.828 256.32 L 117.612 256.32 L 117.612 212.768158 L 90.828 212.768158 z" style="fill: #1f77b4"/>
+        <text x="104.22" y="220" fill="black" font-size="10" text-anchor="middle">9.13</text>
+      </g>
+      <!-- Bar 9 (9.73) -->
+      <g id="patch_12">
+        <path d="M 124.308 256.32 L 151.092 256.32 L 151.092 175.433799 L 124.308 175.433799 z" style="fill: #1f77b4"/>
+        <text x="137.7" y="183" fill="black" font-size="10" text-anchor="middle">9.73</text>
+      </g>
+      <!-- Bar 3 (8.61) -->
+      <g id="patch_5">
+        <path d="M 157.788 256.32 L 184.572 256.32 L 184.572 194.620137 L 157.788 194.620137 z" style="fill: #1f77b4"/>
+        <text x="171.18" y="202" fill="black" font-size="10" text-anchor="middle">8.61</text>
+      </g>
+      <!-- Bar 1 (8.48) -->
+      <g id="patch_4">
+        <path d="M 191.268 256.32 L 218.052 256.32 L 218.052 185.834343 L 191.268 185.834343 z" style="fill: #1f77b4"/>
+        <text x="204.66" y="193" fill="black" font-size="10" text-anchor="middle">8.48</text>
+      </g>
+      <!-- Bar 8 (7.63) -->
+      <g id="patch_11">
+        <path d="M 224.748 256.32 L 251.532 256.32 L 251.532 192.877909 L 224.748 192.877909 z" style="fill: #1f77b4"/>
+        <text x="238.14" y="200" fill="black" font-size="10" text-anchor="middle">7.63</text>
+      </g>
+      <!-- Bar 2 (7.42) -->
+      <g id="patch_3">
+        <path d="M 258.228 256.32 L 285.012 256.32 L 285.012 211.059 L 258.228 211.059 z" style="fill: #1f77b4"/>
+        <text x="271.62" y="219" fill="black" font-size="10" text-anchor="middle">7.42</text>
+      </g>
+      <!-- Bar 6 (5.44) -->
+      <g id="patch_10">
+        <path d="M 291.708 256.32 L 318.492 256.32 L 318.492 180.425562 L 291.708 180.425562 z" style="fill: #1f77b4"/>
+        <text x="305.1" y="188" fill="black" font-size="10" text-anchor="middle">5.44</text>
+      </g>
+      <!-- Bar 4 (5.24) -->
+      <g id="patch_6">
+        <path d="M 325.188 256.32 L 351.972 256.32 L 351.972 184.763968 L 325.188 184.763968 z" style="fill: #1f77b4"/>
+        <text x="338.58" y="192" fill="black" font-size="10" text-anchor="middle">5.24</text>
+      </g>
+      <!-- Bar 0 (7.96) -->
+      <g id="patch_7">
+        <path d="M 358.668 256.32 L 385.452 256.32 L 385.452 190.141971 L 358.668 190.141971 z" style="fill: #1f77b4"/>
+        <text x="372.06" y="198" fill="black" font-size="10" text-anchor="middle">7.96</text>
+      </g>
+    </g>
+  </g>
+</svg>

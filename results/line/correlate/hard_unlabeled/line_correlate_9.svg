@@ -1,0 +1,9 @@
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <g>
+  <path d="M 69.218182 111.898895 L 81.9 97.386774 L 94.581818 95.400291 L 107.263636 100.706726 L 119.945455 97.538373 L 132.627273 102.660037 L 145.309091 103.159556 L 157.990909 133.336692 L 170.672727 119.782257 L 183.354545 80.395651 L 196.036364 128.296838 L 208.718182 134.584307 L 221.4 135.688254 L 234.081818 107.307871 L 246.763636 246.24 L 259.445455 131.850286 L 272.127273 141.990283 L 284.809091 171.131832 L 297.490909 158.752868 L 310.172727 157.201372 L 322.854545 201.765721 L 335.536364 160.973871 L 348.218182 194.715376 L 360.9 44.64 L 373.581818 172.706635" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
+  <!-- Fitted line using linear regression (dummy values) -->
+  <path d="M 69.218182 150 L 373.581818 100" style="fill: none; stroke: #ff7f0e; stroke-width: 1.5; stroke-linecap: square"/>
+ </g>
+</svg>

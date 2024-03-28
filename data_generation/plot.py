@@ -74,11 +74,12 @@ def plot_line(source_folder, target_folder, label):
         # if label:
         #     for i in range(len(df['X'])):
         #         plt.text(df['X'][i], df['Y'][i], f"({df['X'][i]:.2f}, {df['Y'][i]:.2f})", fontsize=8)
-        texts = []
-        for i in range(len(df['X'])):
-            texts.append(plt.text(df['X'][i], df['Y'][i], f"({df['X'][i]:.2f}, {df['Y'][i]:.2f})", fontsize=8))
+        if label:
+            texts = []
+            for i in range(len(df['X'])):
+                texts.append(plt.text(df['X'][i], df['Y'][i], f"({df['X'][i]:.2f}, {df['Y'][i]:.2f})", fontsize=8))
 
-        adjust_text(texts)
+            adjust_text(texts)
         
         # Omit titles, grid lines, and labels
         plt.title('')
@@ -119,13 +120,14 @@ def plot_bar(source_folder, target_folder, label):
         # Add data value labels if specified
         # if label:
         #     for i in range(len(df['X'])):
-        #         plt.text(df['X'][i], df['Y'][i], f"{df['Y'][i]:.2f}", ha='center', va='bottom', fontsize=8)
+        #         plt.text(df['X'][i], df['Y'][i], f"({df['X'][i]},{df['Y'][i]:.2f})", ha='center', va='bottom', fontsize=8)
         
-        texts = []
-        for i in range(len(df['X'])):
-            texts.append(plt.text(df['X'][i], df['Y'][i], f"({df['X'][i]:.2f}, {df['Y'][i]:.2f})", fontsize=8))
-        
-        adjust_text(texts)
+        if label:
+            texts = []
+            for i in range(len(df['X'])):
+                texts.append(plt.text(df['X'][i], df['Y'][i], f"({df['X'][i]}, {df['Y'][i]:.2f})", fontsize=7))
+            
+            adjust_text(texts)
 
         # Omit titles, grid lines, and labels
         plt.title('')

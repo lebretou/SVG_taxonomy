@@ -1,0 +1,10 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g>
+  <path d="M 69.218182 246.24 L 103.036364 242.135924 L 136.854545 229.896363 L 170.672727 227.593898 L 204.490909 232.240832 L 238.309091 44.64 L 272.127273 216.530009 L 305.945455 210.984444 L 339.763636 233.607661 L 373.581818 187.776385" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
+  <circle cx="238.309091" cy="44.64" r="3" style="fill: red; stroke: red;"/>
+  <circle cx="170.672727" cy="227.593898" r="3" style="fill: green; stroke: green;"/>
+ </g>
+</svg>

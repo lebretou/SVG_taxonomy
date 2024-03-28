@@ -30,3 +30,12 @@ def save_csv_files(csv_list, directory, filename_prefix):
             file.write(clean_csv_text)
 
         print(f"Saved: {filepath}")
+
+def save_value_files(values, directory, filename):
+    filepath = os.path.join(directory, filename)
+    
+    with open(filepath, 'w') as file:
+        for value in values:
+            file.write(f"{value}\n")
+    
+    print(f"Saved values to file: {filepath}")

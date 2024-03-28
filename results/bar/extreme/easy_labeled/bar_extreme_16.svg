@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <g>
+   <rect x="57.348" y="204.02332" width="26.784" height="52.29668" style="fill: #1f77b4"/>
+   <rect x="90.828" y="189.931811" width="26.784" height="66.388189" style="fill: #1f77b4"/>
+   <rect x="124.308" y="54.72" width="26.784" height="201.6" style="fill: red"/> <!-- Highest -->
+   <rect x="157.788" y="209.057451" width="26.784" height="47.262549" style="fill: #1f77b4"/>
+   <rect x="191.268" y="187.983869" width="26.784" height="68.336131" style="fill: #1f77b4"/>
+   <rect x="224.748" y="203.146486" width="26.784" height="53.173514" style="fill: #1f77b4"/>
+   <rect x="258.228" y="185.096571" width="26.784" height="71.223429" style="fill: #1f77b4"/>
+   <rect x="291.708" y="205.939385" width="26.784" height="50.380615" style="fill: #1f77b4"/>
+   <rect x="325.188" y="199.877858" width="26.784" height="56.442142" style="fill: #1f77b4"/>
+   <rect x="358.668" y="184.284901" width="26.784" height="72.035099" style="fill: #1f77b4"/>
+ </g>
+ <g>
+   <text x="70.74" y="220" font-family="Arial" font-size="10" fill="black">7.14</text>
+   <text x="104.22" y="205" font-family="Arial" font-size="10" fill="black">9.07</text>
+   <text x="137.7" y="70" font-family="Arial" font-size="10" fill="black">27.54</text> <!-- Highest -->
+   <text x="171.18" y="225" font-family="Arial" font-size="10" fill="black">6.46</text>
+   <text x="204.66" y="203" font-family="Arial" font-size="10" fill="black">9.33</text>
+   <text x="238.14" y="219" font-family="Arial" font-size="10" fill="black">7.26</text>
+   <text x="271.62" y="201" font-family="Arial" font-size="10" fill="black">9.73</text>
+   <text x="305.1" y="221" font-family="Arial" font-size="10" fill="black">6.88</text>
+   <text x="338.58" y="216" font-family="Arial" font-size="10" fill="black">7.71</text>
+   <text x="372.06" y="200" font-family="Arial" font-size="10" fill="black">9.84</text>
+ </g>
+</svg>

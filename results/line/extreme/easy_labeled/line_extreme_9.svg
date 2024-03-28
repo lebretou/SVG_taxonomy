@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <g>
+    <path d="M 69.218182 196.529123 L 103.036364 195.86284 L 136.854545 201.849105 L 170.672727 230.386304 L 204.490909 44.64 L 238.309091 202.614804 L 272.127273 226.714837 L 305.945455 234.084919 L 339.763636 224.600064 L 373.581818 246.24" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
+    <circle cx="204.490909" cy="44.64" r="3" style="fill: red; stroke: red;"/>
+    <circle cx="373.581818" cy="246.24" r="3" style="fill: green; stroke: green;"/>
+  </g>
+</svg>

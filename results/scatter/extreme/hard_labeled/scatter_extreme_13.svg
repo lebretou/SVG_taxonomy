@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  <path id="extremumPoint" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z" style="stroke: #ff0000; stroke-opacity: 0.6"/>
+  <path id="regularPoint" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z" style="stroke: #1f77b4; stroke-opacity: 0.6"/>
+ </defs>
+ <g>
+  <use xlink:href="#regularPoint" x="88.69289" y="217.110648"/>
+  <use xlink:href="#regularPoint" x="90.207882" y="190.361861"/>
+  <use xlink:href="#regularPoint" x="76.24903" y="188.29924"/>
+  <use xlink:href="#regularPoint" x="88.35396" y="212.010524"/>
+  <use xlink:href="#regularPoint" x="81.035399" y="231.921488"/>
+  <use xlink:href="#regularPoint" x="97.103085" y="190.95029"/>
+  <use xlink:href="#regularPoint" x="82.237187" y="213.754701"/>
+  <use xlink:href="#regularPoint" x="69.218182" y="207.51575"/>
+  <use xlink:href="#regularPoint" x="75.816781" y="211.125621"/>
+  <use xlink:href="#regularPoint" x="101.294919" y="206.482885"/>
+  <use xlink:href="#regularPoint" x="123.066332" y="187.927231"/>
+  <use xlink:href="#regularPoint" x="85.904694" y="192.100166"/>
+  <use xlink:href="#regularPoint" x="93.869199" y="175.506904"/>
+  <use xlink:href="#regularPoint" x="78.254429" y="228.392909"/>
+  <use xlink:href="#regularPoint" x="142.945134" y="188.373214"/>
+  <use xlink:href="#regularPoint" x="108.951388" y="191.871436"/>
+  <use xlink:href="#regularPoint" x="187.006755" y="173.767832"/>
+  <use xlink:href="#regularPoint" x="192.010071" y="175.941468"/>
+  <use xlink:href="#extremumPoint" x="203.225348" y="132.67299"/>
+  <use xlink:href="#regularPoint" x="197.389661" y="162.469791"/>
+  <use xlink:href="#regularPoint" x="209.427515" y="134.374902"/>
+  <use xlink:href="#regularPoint" x="206.681116" y="146.271024"/>
+  <use xlink:href="#regularPoint" x="223.022485" y="171.468895"/>
+  <use xlink:href="#regularPoint" x="224.527834" y="110.726859"/>
+  <use xlink:href="#regularPoint" x="196.783015" y="160.389032"/>
+  <use xlink:href="#regularPoint" x="198.487524" y="153.610474"/>
+  <use xlink:href="#regularPoint" x="223.516533" y="135.124611"/>
+  <use xlink:href="#regularPoint" x="217.350133" y="126.934826"/>
+  <use xlink:href="#regularPoint" x="201.510542" y="153.928348"/>
+  <use xlink:href="#regularPoint" x="206.237755" y="135.518477"/>
+  <use xlink:href="#regularPoint" x="191.27852" y="148.339723"/>
+  <use xlink:href="#regularPoint" x="186.541929" y="162.702993"/>
+  <use xlink:href="#regularPoint" x="337.782255" y="90.345791"/>
+  <use xlink:href="#regularPoint" x="318.019129" y="60.967821"/>
+  <use xlink:href="#regularPoint" x="329.634371" y="90.320132"/>
+  <use xlink:href="#regularPoint" x="316.28374" y="72.607247"/>
+  <use xlink:href="#regularPoint" x="328.55433" y="88.541149"/>
+  <use xlink:href="#regularPoint" x="312.31742" y="81.311922"/>
+  <use xlink:href="#regularPoint" x="330.837739" y="45.860543"/>
+  <use xlink:href="#regularPoint" x="318.847354" y="127.194197"/>
+  <use xlink:href="#regularPoint" x="349.386814" y="56.914942"/>
+  <use xlink:href="#regularPoint" x="305.48643" y="102.423848"/>
+  <use xlink:href="#regularPoint" x="313.24568" y="70.442125"/>
+  <use xlink:href="#regularPoint" x="344.308764" y="44.64"/>
+  <use xlink:href="#regularPoint" x="312.836486" y="76.300679"/>
+  <use xlink:href="#regularPoint" x="308.519092" y="116.008206"/>
+  <use xlink:href="#regularPoint" x="319.348779" y="74.179857"/>
+  <use xlink:href="#regularPoint" x="299.477681" y="104.780145"/>
+  <use xlink:href="#regularPoint" x="255.006052" y="219.795374"/>
+  <use xlink:href="#extremumPoint" x="373.581818" y="246.24"/>
+ </g>
+</svg>

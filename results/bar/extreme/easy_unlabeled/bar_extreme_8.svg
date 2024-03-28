@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <g>
+   <rect x="57.348" y="201.357949" width="26.784" height="54.962051" style="fill: #1f77b4"/>
+   <rect x="90.828" y="214.520825" width="26.784" height="41.799175" style="fill: #1f77b4"/>
+   <rect x="124.308" y="198.167615" width="26.784" height="58.152385" style="fill: #1f77b4"/>
+   <rect x="157.788" y="211.635163" width="26.784" height="44.684837" style="fill: #1f77b4"/>
+   <rect x="191.268" y="54.72" width="26.784" height="201.6" style="fill: red"/> <!-- Lowest Y value -->
+   <rect x="224.748" y="216.375746" width="26.784" height="39.944254" style="fill: #1f77b4"/>
+   <rect x="258.228" y="202.38167" width="26.784" height="53.93833" style="fill: #1f77b4"/>
+   <rect x="291.708" y="216.1821" width="26.784" height="40.1379" style="fill: #1f77b4"/>
+   <rect x="325.188" y="181.093485" width="26.784" height="75.226515" style="fill: green"/> <!-- Highest Y value -->
+   <rect x="358.668" y="215.46609" width="26.784" height="40.85391" style="fill: #1f77b4"/>
+ </g>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <g fill="none" stroke="black" stroke-width="2">
+    <!-- Drawing bars -->
+    <rect x="55.3392" y="54.72" width="10.7136" height="201.6" fill="#ff0000"/> <!-- Extremum: Lowest -->
+    <rect x="68.7312" y="192.602266" width="10.7136" height="63.717734"/>
+    <rect x="82.1232" y="189.975151" width="10.7136" height="66.344849"/>
+    <rect x="95.5152" y="197.873235" width="10.7136" height="58.446765"/>
+    <rect x="108.9072" y="184.411472" width="10.7136" height="71.908528"/>
+    <rect x="122.2992" y="209.275846" width="10.7136" height="47.044154"/>
+    <rect x="135.6912" y="217.559963" width="10.7136" height="38.760037"/>
+    <rect x="149.0832" y="252.488931" width="10.7136" height="3.831069" fill="#00ff00"/> <!-- Extremum: Highest -->
+    <rect x="162.4752" y="217.971328" width="10.7136" height="38.348672"/>
+    <rect x="175.8672" y="185.09514" width="10.7136" height="71.22486"/>
+    <rect x="189.2592" y="203.299481" width="10.7136" height="53.020519"/>
+    <rect x="202.6512" y="182.962547" width="10.7136" height="73.357453"/>
+    <rect x="216.0432" y="182.299329" width="10.7136" height="74.020671"/>
+    <rect x="229.4352" y="203.641296" width="10.7136" height="52.678704"/>
+    <rect x="242.8272" y="205.679865" width="10.7136" height="50.640135"/>
+    <rect x="256.2192" y="205.34879" width="10.7136" height="50.97121"/>
+    <rect x="269.6112" y="205.118599" width="10.7136" height="51.201401"/>
+    <rect x="283.0032" y="214.681332" width="10.7136" height="41.638668"/>
+    <rect x="296.3952" y="207.053776" width="10.7136" height="49.266224"/>
+    <rect x="309.7872" y="189.73268" width="10.7136" height="66.58732"/>
+    <rect x="323.1792" y="197.972963" width="10.7136" height="58.347037"/>
+    <rect x="336.5712" y="200.916773" width="10.7136" height="55.403227"/>
+    <rect x="349.9632" y="198.936257" width="10.7136" height="57.383743"/>
+    <rect x="363.3552" y="214.519205" width="10.7136" height="41.800795"/>
+  </g>
+</svg>

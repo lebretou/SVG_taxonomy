@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <g>
+   <rect x="57.348" y="209.42156" width="26.784" height="46.89844" style="fill: #1f77b4"/>
+   <rect x="90.828" y="194.550916" width="26.784" height="61.769084" style="fill: #1f77b4"/>
+   <rect x="124.308" y="206.538636" width="26.784" height="49.781364" style="fill: #1f77b4"/>
+   <rect x="157.788" y="205.714096" width="26.784" height="50.605904" style="fill: #1f77b4"/>
+   <rect x="191.268" y="185.434384" width="26.784" height="70.885616" style="fill: #1f77b4"/>
+   <rect x="224.748" y="198.446473" width="26.784" height="57.873527" style="fill: #1f77b4"/>
+   <rect x="258.228" y="54.72" width="26.784" height="201.6" style="fill: red"/> <!-- Highest -->
+   <rect x="291.708" y="190.312542" width="26.784" height="65.007458" style="fill: #1f77b4"/>
+   <rect x="325.188" y="220.158796" width="26.784" height="36.161204" style="fill: #1f77b4"/>
+   <rect x="358.668" y="205.280961" width="26.784" height="50.039039" style="fill: #1f77b4"/>
+   <text x="70" y="220" font-family="Arial" font-size="10" fill="black">6.62</text>
+   <text x="104" y="204" font-family="Arial" font-size="10" fill="black">8.71</text>
+   <text x="138" y="216" font-family="Arial" font-size="10" fill="black">7.02</text>
+   <text x="172" y="218" font-family="Arial" font-size="10" fill="black">7.14</text>
+   <text x="206" y="196" font-family="Arial" font-size="10" fill="black">10.00</text>
+   <text x="240" y="208" font-family="Arial" font-size="10" fill="black">8.16</text>
+   <text x="274" y="64" font-family="Arial" font-size="10" fill="red">28.44</text> <!-- Highest -->
+   <text x="308" y="200" font-family="Arial" font-size="10" fill="black">9.31</text>
+   <text x="342" y="231" font-family="Arial" font-size="10" fill="blue">5.10</text> <!-- Lowest -->
+   <text x="376" y="215" font-family="Arial" font-size="10" fill="black">7.20</text>
+ </g>
+</svg>

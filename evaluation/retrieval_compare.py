@@ -68,8 +68,8 @@ def plot_csv_pairs(folder_a, folder_b, output_folder):
     print("All plots have been saved.")
 
 # Example usage
-folder_a = '../dataset/scatter/hard'
-folder_b = '../results/scatter/retrieval/hard_unlabeled'
-output_folder = '../results/scatter/retrieval/hard_unlabeled'
+folder_a = '../dataset/scatter/easy'
+folder_b = '../results/scatter/retrieval/easy_labeled'
+output_folder = '../results/scatter/retrieval/easy_labeled'
 
 plot_csv_pairs(folder_a, folder_b, output_folder)

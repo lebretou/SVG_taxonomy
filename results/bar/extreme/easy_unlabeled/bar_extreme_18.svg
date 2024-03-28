@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <g>
+   <rect x="57.348" y="192.898927" width="26.784" height="63.421073" style="fill: #1f77b4"/>
+   <rect x="90.828" y="190.00902" width="26.784" height="66.31098" style="fill: #1f77b4"/>
+   <rect x="124.308" y="204.316918" width="26.784" height="52.003082" style="fill: #1f77b4"/>
+   <rect x="157.788" y="186.608359" width="26.784" height="69.711641" style="fill: #1f77b4"/>
+   <rect x="191.268" y="184.858851" width="26.784" height="71.461149" style="fill: #1f77b4"/>
+   <rect x="224.748" y="215.313183" width="26.784" height="40.006817" style="fill: #1f77b4"/>
+   <rect x="258.228" y="193.365453" width="26.784" height="62.954547" style="fill: #1f77b4"/>
+   <rect x="291.708" y="213.191345" width="26.784" height="42.128655" style="fill: #1f77b4"/>
+   <rect x="325.188" y="54.72" width="26.784" height="201.6" style="fill: red"/> <!-- Highlighted as the highest bin -->
+   <rect x="358.668" y="210.848834" width="26.784" height="45.471166" style="fill: #1f77b4"/>
+ </g>
+</svg>

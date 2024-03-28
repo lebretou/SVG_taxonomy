@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="200pt" height="200pt" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <g fill="#1f77b4">
+    <rect x="20" y="160" width="20" height="40" />
+    <text x="25" y="155" font-family="Arial" font-size="10" fill="black">9.85</text>
+    <rect x="60" y="140" width="20" height="60" />
+    <text x="65" y="135" font-family="Arial" font-size="10" fill="black">9.87</text>
+    <rect x="100" y="150" width="20" height="50" />
+    <text x="105" y="145" font-family="Arial" font-size="10" fill="black">9.05</text>
+  </g>
+</svg>
