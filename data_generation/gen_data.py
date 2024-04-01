@@ -9,15 +9,16 @@ def generate_scatter_dataset(n_points, correlation_factor, n_clusters, cluster_b
     including labels for clusters and outliers.
     """
     total_range_start, total_range_end = 0, 20  # Define total range for clusters
+    outlier_range_start, outlier_range_end = -10, 30  # Define range for outliers
+    
     cluster_points = n_points // n_clusters
     labels = []
-
     x = np.array([])
     y = np.array([])
-
+    
     # Evenly spaced cluster centers
     cluster_centers = np.linspace(total_range_start, total_range_end, n_clusters, endpoint=False)
-
+    
     for i, center in enumerate(cluster_centers):
         # Generate cluster data
         x_cluster = np.random.normal(loc=center, scale=1.0, size=cluster_points)
@@ -25,20 +26,37 @@ def generate_scatter_dataset(n_points, correlation_factor, n_clusters, cluster_b
         x = np.concatenate([x, x_cluster])
         y = np.concatenate([y, y_cluster])
         labels += [f'cluster_{i}'] * cluster_points  # Assign cluster label
-
+    
     # Add outliers with controlled placement
-    x_outlier = np.random.uniform(total_range_start - 5, total_range_end + 5, size=num_outliers)
-    y_outlier = np.random.uniform(min(y) - 5, max(y) + 5, size=num_outliers)
-    x = np.concatenate([x, x_outlier])
-    y = np.concatenate([y, y_outlier])
-    labels += ['outlier'] * num_outliers
-
+    for _ in range(num_outliers):
+        while True:
+            x_outlier = np.random.uniform(outlier_range_start, outlier_range_end)
+            y_outlier = np.random.uniform(outlier_range_start, outlier_range_end)
+            
+            # Check if the outlier is far away from all clusters
+            is_far_away = True
+            for i in range(n_clusters):
+                cluster_x = x[labels == f'cluster_{i}']
+                cluster_y = y[labels == f'cluster_{i}']
+                
+                if len(cluster_x) > 0:  # Check if the cluster has points
+                    distances = np.sqrt((cluster_x - x_outlier)**2 + (cluster_y - y_outlier)**2)
+                    if np.min(distances) < 5:  # Adjust the distance threshold as needed
+                        is_far_away = False
+                        break
+            
+            if is_far_away:
+                x = np.append(x, x_outlier)
+                y = np.append(y, y_outlier)
+                labels.append('outlier')
+                break
+    
     # Create DataFrame
     df = pd.DataFrame({'X': x, 'Y': y, 'Label': labels})
-
+    
     # Ensure the output folder exists
     os.makedirs(output_folder, exist_ok=True)
-
+    
     # Save the dataset
     full_path = os.path.join(output_folder, f'{file_name}.csv')
     df.to_csv(full_path, index=False)

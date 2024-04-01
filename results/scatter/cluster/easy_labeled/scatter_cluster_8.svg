@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
- <g>
+  <g>
+    <!-- Cluster 1 -->
     <circle cx="78.323895" cy="44.64" r="3" style="fill: #ff0000;"/>
     <circle cx="102.760822" cy="131.374401" r="3" style="fill: #ff0000;"/>
     <circle cx="98.171845" cy="179.312565" r="3" style="fill: #ff0000;"/>
@@ -11,6 +12,8 @@
     <circle cx="114.45295" cy="200.495385" r="3" style="fill: #ff0000;"/>
     <circle cx="96.213368" cy="116.836251" r="3" style="fill: #ff0000;"/>
     <circle cx="69.218182" cy="135.353125" r="3" style="fill: #ff0000;"/>
+
+    <!-- Cluster 2 -->
     <circle cx="241.642357" cy="184.383441" r="3" style="fill: #0000ff;"/>
     <circle cx="209.583562" cy="193.747551" r="3" style="fill: #0000ff;"/>
     <circle cx="260.029212" cy="227.337455" r="3" style="fill: #0000ff;"/>
@@ -21,6 +24,8 @@
     <circle cx="248.995365" cy="230.148658" r="3" style="fill: #0000ff;"/>
     <circle cx="219.083943" cy="225.998141" r="3" style="fill: #0000ff;"/>
     <circle cx="245.872848" cy="246.24" r="3" style="fill: #0000ff;"/>
+
+    <!-- Cluster 3 -->
     <circle cx="373.581818" cy="176.640055" r="3" style="fill: #00ff00;"/>
- </g>
+  </g>
 </svg>

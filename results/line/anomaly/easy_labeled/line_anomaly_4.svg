@@ -1,39 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <defs>
   <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
-  <path id="m6fa55b8b43" d="M 0 3 
-C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
-C 2.683901 1.55874 3 0.795609 3 0 
-C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
-C 1.55874 -2.683901 0.795609 -3 0 -3 
-C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
-C -2.683901 -1.55874 -3 -0.795609 -3 0 
-C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
-C -1.55874 2.683901 -0.795609 3 0 3 
-z"/>
  </defs>
  <g>
-  <path d="M 69.218182 246.24 
-L 103.036364 242.135924 
-L 136.854545 229.896363 
-L 170.672727 227.593898 
-L 204.490909 232.240832 
-L 238.309091 44.64 
-L 272.127273 216.530009 
-L 305.945455 210.984444 
-L 339.763636 233.607661 
-L 373.581818 187.776385" 
-style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
-  <use xlink:href="#m6fa55b8b43" x="69.218182" y="246.24" style="fill: #1f77b4; stroke: #1f77b4"/>
-  <use xlink:href="#m6fa55b8b43" x="103.036364" y="242.135924" style="fill: #1f77b4; stroke: #1f77b4"/>
-  <use xlink:href="#m6fa55b8b43" x="136.854545" y="229.896363" style="fill: #1f77b4; stroke: #1f77b4"/>
-  <use xlink:href="#m6fa55b8b43" x="170.672727" y="227.593898" style="fill: #1f77b4; stroke: #1f77b4"/>
-  <use xlink:href="#m6fa55b8b43" x="204.490909" y="232.240832" style="fill: #1f77b4; stroke: #1f77b4"/>
-  <use xlink:href="#m6fa55b8b43" x="238.309091" y="44.64" style="fill: red; stroke: red"/>
-  <use xlink:href="#m6fa55b8b43" x="272.127273" y="216.530009" style="fill: #1f77b4; stroke: #1f77b4"/>
-  <use xlink:href="#m6fa55b8b43" x="305.945455" y="210.984444" style="fill: #1f77b4; stroke: #1f77b4"/>
-  <use xlink:href="#m6fa55b8b43" x="339.763636" y="233.607661" style="fill: #1f77b4; stroke: #1f77b4"/>
-  <use xlink:href="#m6fa55b8b43" x="373.581818" y="187.776385" style="fill: #1f77b4; stroke: #1f77b4"/>
+  <path d="M 69.218182 246.24 L 103.036364 242.135924 L 136.854545 229.896363 L 170.672727 227.593898 L 204.490909 232.240832 L 238.309091 44.64 L 272.127273 216.530009 L 305.945455 210.984444 L 339.763636 233.607661 L 373.581818 187.776385" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
+  <circle cx="238.309091" cy="44.64" r="3" style="fill: red; stroke: red;"/>
  </g>
 </svg>

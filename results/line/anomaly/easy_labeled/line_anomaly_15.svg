@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <defs>
   <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
@@ -6,8 +5,5 @@
  <g>
   <path d="M 69.218182 177.896386 L 103.036364 231.129507 L 136.854545 207.131246 L 170.672727 44.64 L 204.490909 226.800832 L 238.309091 215.783632 L 272.127273 242.410481 L 305.945455 242.509579 L 339.763636 240.510422 L 373.581818 246.24" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
   <circle cx="170.672727" cy="44.64" r="3" style="fill: red; stroke: red;"/>
-  <circle cx="204.490909" cy="226.800832" r="3" style="fill: red; stroke: red;"/>
-  <circle cx="272.127273" cy="242.410481" r="3" style="fill: red; stroke: red;"/>
-  <circle cx="305.945455" cy="242.509579" r="3" style="fill: red; stroke: red;"/>
  </g>
 </svg>

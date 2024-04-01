@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <g id="scatter_plot_with_line">
+    <g id="data_points">
+      <circle cx="101.952919" cy="239.940913" r="3" style="fill: #1f77b4;"/>
+      <circle cx="80.252955" cy="235.431444" r="3" style="fill: #1f77b4;"/>
+      <circle cx="86.635446" cy="235.057748" r="3" style="fill: #1f77b4;"/>
+      <circle cx="110.357716" cy="229.494743" r="3" style="fill: #1f77b4;"/>
+      <circle cx="69.218182" cy="246.24" r="3" style="fill: #1f77b4;"/>
+      <circle cx="104.937109" cy="228.673758" r="3" style="fill: #1f77b4;"/>
+      <circle cx="101.056296" cy="216.869863" r="3" style="fill: #1f77b4;"/>
+      <circle cx="101.962098" cy="233.206089" r="3" style="fill: #1f77b4;"/>
+      <circle cx="80.858054" cy="238.094405" r="3" style="fill: #1f77b4;"/>
+      <circle cx="94.892443" cy="231.423708" r="3" style="fill: #1f77b4;"/>
+      <circle cx="121.59763" cy="237.901253" r="3" style="fill: #1f77b4;"/>
+      <circle cx="85.395582" cy="225.595918" r="3" style="fill: #1f77b4;"/>
+      <circle cx="89.312163" cy="235.089697" r="3" style="fill: #1f77b4;"/>
+      <circle cx="89.758194" cy="233.48523" r="3" style="fill: #1f77b4;"/>
+      <circle cx="115.923178" cy="224.589835" r="3" style="fill: #1f77b4;"/>
+      <circle cx="107.256345" cy="223.814641" r="3" style="fill: #1f77b4;"/>
+      <circle cx="231.088888" cy="210.761079" r="3" style="fill: #1f77b4;"/>
+      <circle cx="244.083761" cy="213.331869" r="3" style="fill: #1f77b4;"/>
+      <circle cx="251.12006" cy="211.709378" r="3" style="fill: #1f77b4;"/>
+      <circle cx="216.799991" cy="204.914856" r="3" style="fill: #1f77b4;"/>
+      <circle cx="209.844516" cy="218.906224" r="3" style="fill: #1f77b4;"/>
+      <circle cx="226.019411" cy="208.741363" r="3" style="fill: #1f77b4;"/>
+      <circle cx="235.718084" cy="213.22298" r="3" style="fill: #1f77b4;"/>
+      <circle cx="221.36697" cy="205.021538" r="3" style="fill: #1f77b4;"/>
+      <circle cx="218.999608" cy="210.080256" r="3" style="fill: #1f77b4;"/>
+      <circle cx="217.106427" cy="221.352342" r="3" style="fill: #1f77b4;"/>
+      <circle cx="205.777219" cy="226.036687" r="3" style="fill: #1f77b4;"/>
+      <circle cx="193.654324" cy="215.35365" r="3" style="fill: #1f77b4;"/>
+      <circle cx="184.257849" cy="202.630277" r="3" style="fill: #1f77b4;"/>
+      <circle cx="207.099059" cy="212.842914" r="3" style="fill: #1f77b4;"/>
+      <circle cx="215.207173" cy="212.713724" r="3" style="fill: #1f77b4;"/>
+      <circle cx="204.477522" cy="215.591592" r="3" style="fill: #1f77b4;"/>
+      <circle cx="319.629773" cy="199.752361" r="3" style="fill: #1f77b4;"/>
+      <circle cx="316.854426" cy="201.442718" r="3" style="fill: #1f77b4;"/>
+      <circle cx="323.136999" cy="201.261085" r="3" style="fill: #1f77b4;"/>
+      <circle cx="336.437441" cy="191.066368" r="3" style="fill: #1f77b4;"/>
+      <circle cx="318.798341" cy="196.289176" r="3" style="fill: #1f77b4;"/>
+      <circle cx="330.299938" cy="189.532288" r="3" style="fill: #1f77b4;"/>
+      <circle cx="348.927747" cy="198.302203" r="3" style="fill: #1f77b4;"/>
+      <circle cx="318.214819" cy="188.272156" r="3" style="fill: #1f77b4;"/>
+      <circle cx="339.04295" cy="187.911147" r="3" style="fill: #1f77b4;"/>
+      <circle cx="344.096438" cy="188.981019" r="3" style="fill: #1f77b4;"/>
+      <circle cx="318.209102" cy="209.894009" r="3" style="fill: #1f77b4;"/>
+      <circle cx="304.01412" cy="201.730821" r="3" style="fill: #1f77b4;"/>
+      <circle cx="349.520298" cy="205.468197" r="3" style="fill: #1f77b4;"/>
+      <circle cx="373.581818" cy="187.870782" r="3" style="fill: #1f77b4;"/>
+      <circle cx="335.623269" cy="199.227724" r="3" style="fill: #1f77b4;"/>
+      <circle cx="325.593742" cy="194.077749" r="3" style="fill: #1f77b4;"/>
+      <circle cx="117.219361" cy="53.555498" r="3" style="fill: #1f77b4;"/>
+      <circle cx="258.893464" cy="44.64" r="3" style="fill: #1f77b4;"/>
+    </g>
+    <g id="fitted_line">
+      <line x1="54" y1="256.32" x2="388.8" y2="34.56" style="stroke: #ff7f0e; stroke-width: 2"/>
+    </g>
+  </g>
+</svg>

@@ -4,16 +4,17 @@
   <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  </defs>
  <g>
-  <path d="M 69.218182 217.528813 L 103.036364 199.427032 L 136.854545 226.013459 L 170.672727 220.542089 L 204.490909 234.37086 L 238.309091 222.533632 L 272.127273 205.354853 L 305.945455 221.000594 L 339.763636 44.64 L 373.581818 246.24" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
-  <circle cx="69.218182" cy="217.528813" r="3" style="fill: #1f77b4; stroke: #1f77b4;"/>
-  <circle cx="103.036364" cy="199.427032" r="3" style="fill: #1f77b4; stroke: #1f77b4;"/>
-  <circle cx="136.854545" cy="226.013459" r="3" style="fill: #1f77b4; stroke: #1f77b4;"/>
-  <circle cx="170.672727" cy="220.542089" r="3" style="fill: #1f77b4; stroke: #1f77b4;"/>
-  <circle cx="204.490909" cy="234.37086" r="3" style="fill: #1f77b4; stroke: #1f77b4;"/>
-  <circle cx="238.309091" cy="222.533632" r="3" style="fill: #1f77b4; stroke: #1f77b4;"/>
-  <circle cx="272.127273" cy="205.354853" r="3" style="fill: #1f77b4; stroke: #1f77b4;"/>
-  <circle cx="305.945455" cy="221.000594" r="3" style="fill: #1f77b4; stroke: #1f77b4;"/>
+  <path d="M 69.218182 217.528813 
+L 103.036364 199.427032 
+L 136.854545 226.013459 
+L 170.672727 220.542089 
+L 204.490909 234.37086 
+L 238.309091 222.533632 
+L 272.127273 205.354853 
+L 305.945455 221.000594 
+L 339.763636 44.64 
+L 373.581818 246.24 
+" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
   <circle cx="339.763636" cy="44.64" r="3" style="fill: red; stroke: red;"/>
-  <circle cx="373.581818" cy="246.24" r="3" style="fill: #1f77b4; stroke: #1f77b4;"/>
  </g>
 </svg>

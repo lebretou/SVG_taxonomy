@@ -3,16 +3,69 @@
   <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  </defs>
  <g>
-  <path d="M 69.218182 218.211576 L 103.036364 232.770606 L 136.854545 224.613604 L 170.672727 235.396362 L 204.490909 246.24 L 238.309091 206.781311 L 272.127273 209.80499 L 305.945455 44.64 L 339.763636 233.503502 L 373.581818 208.725104" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
-  <circle cx="69.218182" cy="218.211576" r="3" style="fill: #1f77b4;"/>
-  <circle cx="103.036364" cy="232.770606" r="3" style="fill: #1f77b4;"/>
-  <circle cx="136.854545" cy="224.613604" r="3" style="fill: #1f77b4;"/>
-  <circle cx="170.672727" cy="235.396362" r="3" style="fill: #1f77b4;"/>
-  <circle cx="204.490909" cy="246.24" r="3" style="fill: #1f77b4;"/>
-  <circle cx="238.309091" cy="206.781311" r="3" style="fill: #1f77b4;"/>
-  <circle cx="272.127273" cy="209.80499" r="3" style="fill: #1f77b4;"/>
-  <circle cx="305.945455" cy="44.64" r="3" style="fill: red;"/>
-  <circle cx="339.763636" cy="233.503502" r="3" style="fill: #1f77b4;"/>
-  <circle cx="373.581818" cy="208.725104" r="3" style="fill: #1f77b4;"/>
+  <g>
+   <path d="M 0 288 
+L 432 288 
+L 432 0 
+L 0 0 
+L 0 288 
+z
+" style="fill: none"/>
+  </g>
+  <g>
+   <g>
+    <path d="M 54 256.32 
+L 388.8 256.32 
+L 388.8 34.56 
+L 54 34.56 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g>
+    <defs>
+     <path id="me1955dbc49" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #1f77b4; stroke-opacity: 0.8"/>
+    </defs>
+    <g clip-path="url(#peb5d3f1806)">
+     <use xlink:href="#me1955dbc49" x="69.218182" y="218.211576" style="fill: #1f77b4; fill-opacity: 0.8; stroke: #1f77b4; stroke-opacity: 0.8"/>
+     <use xlink:href="#me1955dbc49" x="103.036364" y="232.770606" style="fill: #1f77b4; fill-opacity: 0.8; stroke: #1f77b4; stroke-opacity: 0.8"/>
+     <use xlink:href="#me1955dbc49" x="136.854545" y="224.613604" style="fill: #1f77b4; fill-opacity: 0.8; stroke: #1f77b4; stroke-opacity: 0.8"/>
+     <use xlink:href="#me1955dbc49" x="170.672727" y="235.396362" style="fill: #1f77b4; fill-opacity: 0.8; stroke: #1f77b4; stroke-opacity: 0.8"/>
+     <use xlink:href="#me1955dbc49" x="204.490909" y="246.24" style="fill: #1f77b4; fill-opacity: 0.8; stroke: #1f77b4; stroke-opacity: 0.8"/>
+     <use xlink:href="#me1955dbc49" x="238.309091" y="206.781311" style="fill: #1f77b4; fill-opacity: 0.8; stroke: #1f77b4; stroke-opacity: 0.8"/>
+     <use xlink:href="#me1955dbc49" x="272.127273" y="209.80499" style="fill: #1f77b4; fill-opacity: 0.8; stroke: #1f77b4; stroke-opacity: 0.8"/>
+     <use xlink:href="#me1955dbc49" x="305.945455" y="44.64" style="fill: red; fill-opacity: 0.8; stroke: red; stroke-opacity: 0.8"/>
+     <use xlink:href="#me1955dbc49" x="339.763636" y="233.503502" style="fill: #1f77b4; fill-opacity: 0.8; stroke: #1f77b4; stroke-opacity: 0.8"/>
+     <use xlink:href="#me1955dbc49" x="373.581818" y="208.725104" style="fill: #1f77b4; fill-opacity: 0.8; stroke: #1f77b4; stroke-opacity: 0.8"/>
+    </g>
+   </g>
+   <g>
+    <path d="M 69.218182 218.211576 
+L 103.036364 232.770606 
+L 136.854545 224.613604 
+L 170.672727 235.396362 
+L 204.490909 246.24 
+L 238.309091 206.781311 
+L 272.127273 209.80499 
+L 305.945455 44.64 
+L 339.763636 233.503502 
+L 373.581818 208.725104 
+" clip-path="url(#peb5d3f1806)" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
+   </g>
+  </g>
  </g>
+ <defs>
+  <clipPath id="peb5d3f1806">
+   <rect x="54" y="34.56" width="334.8" height="221.76"/>
+  </clipPath>
+ </defs>
 </svg>

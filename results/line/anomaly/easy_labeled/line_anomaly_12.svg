@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g>
-  <path d="M 69.218182 200.085832 L 103.036364 44.64 L 136.854545 246.24 L 170.672727 216.517381 L 204.490909 202.972849 L 238.309091 198.578661 L 272.127273 208.618275 L 305.945455 198.160013 L 339.763636 174.705335 L 373.581818 199.542939" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
-  <circle cx="103.036364" cy="44.64" r="3" style="fill: red; stroke: red;"/>
-  <circle cx="136.854545" cy="246.24" r="3" style="fill: red; stroke: red;"/>
-  <circle cx="339.763636" cy="174.705335" r="3" style="fill: red; stroke: red;"/>
- </g>
+<svg width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <g>
+    <path d="M 69.218182 200.085832 L 103.036364 44.64 L 136.854545 246.24 L 170.672727 216.517381 L 204.490909 202.972849 L 238.309091 198.578661 L 272.127273 208.618275 L 305.945455 198.160013 L 339.763636 174.705335 L 373.581818 199.542939" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
+    <circle cx="103.036364" cy="44.64" r="3" style="fill: red; stroke: red;"/>
+  </g>
 </svg>

@@ -2,27 +2,30 @@
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <defs>
   <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  <path id="extremumPoint" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z" />
  </defs>
- <g id="figure_1">
-  <g id="axes_1">
-   <g id="line2d_11">
-    <path d="M 69.218182 108.681757 
-L 103.036364 111.147263 
-L 136.854545 125.375746 
-L 170.672727 120.87707 
-L 204.490909 147.82852 
-L 238.309091 104.981454 
-L 272.127273 143.645592 
-L 305.945455 246.24 
-L 339.763636 44.64 
-L 373.581818 162.321556 
+ <g>
+  <path d="M 69.218182 200.085832 
+L 103.036364 44.64 
+L 136.854545 246.24 
+L 170.672727 216.517381 
+L 204.490909 202.972849 
+L 238.309091 198.578661 
+L 272.127273 208.618275 
+L 305.945455 198.160013 
+L 339.763636 174.705335 
+L 373.581818 199.542939 
 " style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
-   </g>
-   <g id="mean_line">
-    <path d="M 54 132.975 
-L 388.8 132.975 
-" style="fill: none; stroke: #ff7f0e; stroke-width: 1.5; stroke-dasharray: 5,5; stroke-linecap: square"/>
-   </g>
-  </g>
+  <use xlink:href="#extremumPoint" x="103.036364" y="44.64" style="fill: red; stroke: red;"/>
+  <use xlink:href="#extremumPoint" x="136.854545" y="246.24" style="fill: green; stroke: green;"/>
  </g>
 </svg>

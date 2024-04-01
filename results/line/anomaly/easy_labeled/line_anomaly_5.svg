@@ -1,28 +1,9 @@
 <svg width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <defs>
   <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
-  <path id="mfb3673b5a1" d="M 0 3 
-C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
-C 2.683901 1.55874 3 0.795609 3 0 
-C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
-C 1.55874 -2.683901 0.795609 -3 0 -3 
-C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
-C -2.683901 -1.55874 -3 -0.795609 -3 0 
-C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
-C -1.55874 2.683901 -0.795609 3 0 3 
-z"/>
  </defs>
  <g>
   <path d="M 69.218182 246.24 L 103.036364 232.233414 L 136.854545 229.464421 L 170.672727 222.588444 L 204.490909 245.564493 L 238.309091 225.739491 L 272.127273 240.388149 L 305.945455 242.033007 L 339.763636 44.64 L 373.581818 225.32313" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
-  <use xlink:href="#mfb3673b5a1" x="69.218182" y="246.24" style="fill: #1f77b4; stroke: #1f77b4"/>
-  <use xlink:href="#mfb3673b5a1" x="103.036364" y="232.233414" style="fill: #1f77b4; stroke: #1f77b4"/>
-  <use xlink:href="#mfb3673b5a1" x="136.854545" y="229.464421" style="fill: #1f77b4; stroke: #1f77b4"/>
-  <use xlink:href="#mfb3673b5a1" x="170.672727" y="222.588444" style="fill: #1f77b4; stroke: #1f77b4"/>
-  <use xlink:href="#mfb3673b5a1" x="204.490909" y="245.564493" style="fill: #1f77b4; stroke: #1f77b4"/>
-  <use xlink:href="#mfb3673b5a1" x="238.309091" y="225.739491" style="fill: #1f77b4; stroke: #1f77b4"/>
-  <use xlink:href="#mfb3673b5a1" x="272.127273" y="240.388149" style="fill: #1f77b4; stroke: #1f77b4"/>
-  <use xlink:href="#mfb3673b5a1" x="305.945455" y="242.033007" style="fill: #1f77b4; stroke: #1f77b4"/>
-  <use xlink:href="#mfb3673b5a1" x="339.763636" y="44.64" style="fill: red; stroke: red"/>
-  <use xlink:href="#mfb3673b5a1" x="373.581818" y="225.32313" style="fill: #1f77b4; stroke: #1f77b4"/>
+  <circle cx="339.763636" cy="44.64" r="3" style="fill: red; stroke: red;"/>
  </g>
 </svg>

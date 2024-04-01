@@ -2,47 +2,11 @@
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <defs>
   <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  <path id="extremumPoint" d="M 0 3 C 0.795609 3 1.55874 2.683901 2.12132 2.12132 C 2.683901 1.55874 3 0.795609 3 0 C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 C 1.55874 -2.683901 0.795609 -3 0 -3 C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 C -2.683901 -1.55874 -3 -0.795609 -3 0 C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 C -1.55874 2.683901 -0.795609 3 0 3 z" style="stroke: #1f77b4; stroke-opacity: 0.8"/>
  </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 288 
-L 432 288 
-L 432 0 
-L 0 0 
-L 0 288 
-z
-" style="fill: none"/>
-  </g>
-  <g id="axes_1">
-   <g id="patch_2">
-    <path d="M 54 256.32 
-L 388.8 256.32 
-L 388.8 34.56 
-L 54 34.56 
-z
-" style="fill: #ffffff"/>
-   </g>
-   <g id="line2d_15">
-    <path d="M 69.218182 157.666061 
-L 103.036364 128.084538 
-L 136.854545 44.64 
-L 170.672727 146.398205 
-L 204.490909 151.079554 
-L 238.309091 153.621347 
-L 272.127273 246.24 
-L 305.945455 147.398906 
-L 339.763636 129.437927 
-L 373.581818 139.71492 
-" clip-path="url(#pa57fb22785)" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
-   </g>
-   <g id="mean_line">
-    <path d="M 54 145.71428571428572 L 388.8 145.71428571428572" style="stroke: #ff0000; stroke-width: 1.5; stroke-dasharray: 5,5;"/>
-   </g>
-  </g>
+ <g>
+  <path d="M 69.218182 226.229703 L 103.036364 221.055287 L 136.854545 229.156318 L 170.672727 203.425476 L 204.490909 246.24 L 238.309091 44.64 L 272.127273 226.607126 L 305.945455 218.50288 L 339.763636 205.435651 L 373.581818 197.022147" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: round"/>
+  <use xlink:href="#extremumPoint" x="238.309091" y="44.64" style="fill: red; fill-opacity: 0.8; stroke: red; stroke-opacity: 0.8"/>
+  <use xlink:href="#extremumPoint" x="204.490909" y="246.24" style="fill: green; fill-opacity: 0.8; stroke: green; stroke-opacity: 0.8"/>
  </g>
- <defs>
-  <clipPath id="pa57fb22785">
-   <rect x="54" y="34.56" width="334.8" height="221.76"/>
-  </clipPath>
- </defs>
 </svg>

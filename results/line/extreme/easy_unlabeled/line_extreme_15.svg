@@ -1,26 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="axes_1">
-   <g id="line2d_11">
-    <path d="M 69.218182 133.053156 
-L 103.036364 44.64 
-L 136.854545 246.24 
-L 170.672727 132.56962 
-L 204.490909 151.831698 
-L 238.309091 144.116114 
-L 272.127273 123.471148 
-L 305.945455 121.077763 
-L 339.763636 130.815213 
-L 373.581818 89.157629 
-" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
-   </g>
-   <g id="mean_line">
-    <path d="M 54 128.0922 L 388.8 128.0922" style="fill: none; stroke: #ff7f0e; stroke-width: 1.5; stroke-linecap: square; stroke-dasharray: 5,5"/>
-   </g>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <defs>
+    <style type="text/css">
+      * {stroke-linejoin: round; stroke-linecap: butt;}
+    </style>
+  </defs>
+  <g>
+    <path d="M 69.218182 177.896386 L 103.036364 231.129507 L 136.854545 207.131246 L 170.672727 44.64 L 204.490909 226.800832 L 238.309091 215.783632 L 272.127273 242.410481 L 305.945455 242.509579 L 339.763636 240.510422 L 373.581818 246.24" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
+    <!-- Highlighting the lowest point (Y min) -->
+    <circle cx="170.672727" cy="44.64" r="3" style="fill: red;"/>
+    <!-- Highlighting the highest point (Y max) -->
+    <circle cx="272.127273" cy="242.410481" r="3" style="fill: green;"/>
+    <circle cx="305.945455" cy="242.509579" r="3" style="fill: green;"/>
+    <circle cx="373.581818" cy="246.24" r="3" style="fill: green;"/>
   </g>
- </g>
 </svg>

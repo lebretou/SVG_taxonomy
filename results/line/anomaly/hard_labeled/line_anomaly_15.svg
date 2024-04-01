@@ -1,40 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="line2d_13">
-    <path d="M 69.218182 165.569541 
-    L 81.9 151.83249 
-    L 94.581818 246.24 
-    L 107.263636 149.053526 
-    L 119.945455 149.353666 
-    L 132.627273 134.139124 
-    L 145.309091 162.945905 
-    L 157.990909 156.715238 
-    L 170.672727 174.76315 
-    L 183.354545 150.675981 
-    L 196.036364 141.195812 
-    L 208.718182 147.303951 
-    L 221.4 129.162062 
-    L 234.081818 146.69904 
-    L 246.763636 140.095453 
-    L 259.445455 144.73137 
-    L 272.127273 138.795663 
-    L 284.809091 117.213243 
-    L 297.490909 140.575939 
-    L 310.172727 116.960811 
-    L 322.854545 44.64 
-    L 335.536364 110.470399 
-    L 348.218182 119.689306 
-    L 360.9 127.09153 
-    L 373.581818 117.452105 
-    " style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
-    <!-- Highlighting Outlier Points -->
-    <circle cx="94.581818" cy="246.24" r="3" style="fill: red;"/>
-    <circle cx="322.854545" cy="44.64" r="3" style="fill: red;"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="432pt" height="288pt" viewBox="0 0 432 288" version="1.1">
+  <g id="figure_1">
+    <g id="line2d_13">
+      <path d="M 69.218182 165.569541 L 81.9 151.83249 L 94.581818 246.24 L 107.263636 149.053526 L 119.945455 149.353666 L 132.627273 134.139124 L 145.309091 162.945905 L 157.990909 156.715238 L 170.672727 174.76315 L 183.354545 150.675981 L 196.036364 141.195812 L 208.718182 147.303951 L 221.4 129.162062 L 234.081818 146.69904 L 246.763636 140.095453 L 259.445455 144.73137 L 272.127273 138.795663 L 284.809091 117.213243 L 297.490909 140.575939 L 310.172727 116.960811 L 322.854545 44.64 L 335.536364 110.470399 L 348.218182 119.689306 L 360.9 127.09153 L 373.581818 117.452105" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
+      <!-- Outlier points -->
+      <circle cx="94.581818" cy="246.24" r="3" style="fill: red;"/>
+      <circle cx="322.854545" cy="44.64" r="3" style="fill: red;"/>
+    </g>
   </g>
- </g>
 </svg>

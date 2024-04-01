@@ -1,75 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
-  <path id="circle" d="M 0 3 
-C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
-C 2.683901 1.55874 3 0.795609 3 0 
-C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
-C 1.55874 -2.683901 0.795609 -3 0 -3 
-C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
-C -2.683901 -1.55874 -3 -0.795609 -3 0 
-C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
-C -1.55874 2.683901 -0.795609 3 0 3 
-z"/>
- </defs>
- <g>
-  <!-- Cluster 1 -->
-  <use xlink:href="#circle" x="92.243208" y="135.422885" style="fill: red;"/>
-  <use xlink:href="#circle" x="86.50228" y="137.762192" style="fill: red;"/>
-  <use xlink:href="#circle" x="82.024208" y="179.001524" style="fill: red;"/>
-  <use xlink:href="#circle" x="74.109734" y="150.059722" style="fill: red;"/>
-  <use xlink:href="#circle" x="70.1205" y="161.866973" style="fill: red;"/>
-  <use xlink:href="#circle" x="71.958043" y="169.892658" style="fill: red;"/>
-  <use xlink:href="#circle" x="103.277736" y="142.170625" style="fill: red;"/>
-  <use xlink:href="#circle" x="117.085443" y="154.506452" style="fill: red;"/>
-  <use xlink:href="#circle" x="112.0873" y="150.745624" style="fill: red;"/>
-  <use xlink:href="#circle" x="101.895792" y="181.267326" style="fill: red;"/>
-  <use xlink:href="#circle" x="102.287753" y="154.077637" style="fill: red;"/>
-  <use xlink:href="#circle" x="118.346585" y="156.333328" style="fill: red;"/>
-  <use xlink:href="#circle" x="92.741652" y="159.840349" style="fill: red;"/>
-  <use xlink:href="#circle" x="76.77949" y="157.716273" style="fill: red;"/>
-  <use xlink:href="#circle" x="132.79768" y="157.366213" style="fill: red;"/>
-  <use xlink:href="#circle" x="69.218182" y="139.139067" style="fill: red;"/>
-  
-  <!-- Cluster 2 -->
-  <use xlink:href="#circle" x="230.786419" y="117.509418" style="fill: blue;"/>
-  <use xlink:href="#circle" x="241.177333" y="106.379751" style="fill: blue;"/>
-  <use xlink:href="#circle" x="226.229233" y="120.459425" style="fill: blue;"/>
-  <use xlink:href="#circle" x="258.576324" y="133.078881" style="fill: blue;"/>
-  <use xlink:href="#circle" x="228.158943" y="108.557629" style="fill: blue;"/>
-  <use xlink:href="#circle" x="216.552814" y="118.50718" style="fill: blue;"/>
-  <use xlink:href="#circle" x="208.424904" y="112.477971" style="fill: blue;"/>
-  <use xlink:href="#circle" x="204.314908" y="136.996786" style="fill: blue;"/>
-  <use xlink:href="#circle" x="201.516513" y="150.395943" style="fill: blue;"/>
-  <use xlink:href="#circle" x="220.471224" y="107.178009" style="fill: blue;"/>
-  <use xlink:href="#circle" x="182.680805" y="154.246612" style="fill: blue;"/>
-  <use xlink:href="#circle" x="218.532876" y="128.529049" style="fill: blue;"/>
-  <use xlink:href="#circle" x="246.506932" y="126.065748" style="fill: blue;"/>
-  <use xlink:href="#circle" x="253.88414" y="109.272685" style="fill: blue;"/>
-  <use xlink:href="#circle" x="220.527908" y="133.117711" style="fill: blue;"/>
-  <use xlink:href="#circle" x="236.236428" y="131.844674" style="fill: blue;"/>
-  
-  <!-- Cluster 3 -->
-  <use xlink:href="#circle" x="344.180245" y="104.89726" style="fill: green;"/>
-  <use xlink:href="#circle" x="313.446496" y="99.390256" style="fill: green;"/>
-  <use xlink:href="#circle" x="354.389947" y="91.996685" style="fill: green;"/>
-  <use xlink:href="#circle" x="363.255717" y="108.463253" style="fill: green;"/>
-  <use xlink:href="#circle" x="325.091123" y="115.073718" style="fill: green;"/>
-  <use xlink:href="#circle" x="358.661085" y="107.843654" style="fill: green;"/>
-  <use xlink:href="#circle" x="345.954571" y="104.545299" style="fill: green;"/>
-  <use xlink:href="#circle" x="317.990716" y="93.794524" style="fill: green;"/>
-  <use xlink:href="#circle" x="340.241255" y="114.165408" style="fill: green;"/>
-  <use xlink:href="#circle" x="360.990712" y="104.204039" style="fill: green;"/>
-  <use xlink:href="#circle" x="337.976375" y="109.747975" style="fill: green;"/>
-  <use xlink:href="#circle" x="317.51747" y="97.87136" style="fill: green;"/>
-  <use xlink:href="#circle" x="337.358456" y="112.30877" style="fill: green;"/>
-  <use xlink:href="#circle" x="317.244367" y="97.565259" style="fill: green;"/>
-  <use xlink:href="#circle" x="332.961415" y="104.087549" style="fill: green;"/>
-  <use xlink:href="#circle" x="325.125269" y="112.445013" style="fill: green;"/>
-  
-  <!-- Outliers -->
-  <use xlink:href="#circle" x="127.335592" y="246.24" style="fill: orange;"/>
-  <use xlink:href="#circle" x="373.581818" y="44.64" style="fill: orange;"/>
- </g>
+<svg width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <defs>
+    <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+    <path id="circle" d="M 0 3 C 0.795609 3 1.55874 2.683901 2.12132 2.12132 C 2.683901 1.55874 3 0.795609 3 0 C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 C 1.55874 -2.683901 0.795609 -3 0 -3 C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 C -2.683901 -1.55874 -3 -0.795609 -3 0 C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 C -1.55874 2.683901 -0.795609 3 0 3 z"/>
+  </defs>
+  <g>
+    <!-- Cluster 1 -->
+    <use xlink:href="#circle" x="137.887727" y="168.704046" style="fill: #ff0000;"/>
+    <use xlink:href="#circle" x="137.999288" y="169.857053" style="fill: #ff0000;"/>
+    <use xlink:href="#circle" x="126.43133" y="179.493878" style="fill: #ff0000;"/>
+    <use xlink:href="#circle" x="146.407463" y="177.158346" style="fill: #ff0000;"/>
+    <use xlink:href="#circle" x="146.309322" y="180.781156" style="fill: #ff0000;"/>
+    <use xlink:href="#circle" x="142.165221" y="167.314859" style="fill: #ff0000;"/>
+    <use xlink:href="#circle" x="141.219694" y="171.764242" style="fill: #ff0000;"/>
+    <use xlink:href="#circle" x="142.173128" y="182.627332" style="fill: #ff0000;"/>
+    <use xlink:href="#circle" x="139.729211" y="161.429395" style="fill: #ff0000;"/>
+    <use xlink:href="#circle" x="136.540173" y="168.410412" style="fill: #ff0000;"/>
+    <use xlink:href="#circle" x="152.905187" y="186.117416" style="fill: #ff0000;"/>
+    <use xlink:href="#circle" x="148.307376" y="183.287295" style="fill: #ff0000;"/>
+    <use xlink:href="#circle" x="141.419308" y="166.786879" style="fill: #ff0000;"/>
+    <use xlink:href="#circle" x="143.330336" y="179.518292" style="fill: #ff0000;"/>
+    <use xlink:href="#circle" x="121.674678" y="164.080371" style="fill: #ff0000;"/>
+    <use xlink:href="#circle" x="133.215553" y="175.565164" style="fill: #ff0000;"/>
+    
+    <!-- Cluster 2 -->
+    <use xlink:href="#circle" x="202.594439" y="204.927585" style="fill: #00ff00;"/>
+    <use xlink:href="#circle" x="204.515597" y="210.408024" style="fill: #00ff00;"/>
+    <use xlink:href="#circle" x="207.488853" y="206.591443" style="fill: #00ff00;"/>
+    <use xlink:href="#circle" x="199.986055" y="189.068339" style="fill: #00ff00;"/>
+    <use xlink:href="#circle" x="193.782523" y="185.642506" style="fill: #00ff00;"/>
+    <use xlink:href="#circle" x="196.546639" y="201.085522" style="fill: #00ff00;"/>
+    <use xlink:href="#circle" x="205.739031" y="205.655461" style="fill: #00ff00;"/>
+    <use xlink:href="#circle" x="199.002799" y="186.513697" style="fill: #00ff00;"/>
+    <use xlink:href="#circle" x="184.441296" y="200.224665" style="fill: #00ff00;"/>
+    <use xlink:href="#circle" x="195.134917" y="204.279176" style="fill: #00ff00;"/>
+    <use xlink:href="#circle" x="199.89678" y="194.892137" style="fill: #00ff00;"/>
+    <use xlink:href="#circle" x="191.417167" y="195.504124" style="fill: #00ff00;"/>
+    <use xlink:href="#circle" x="203.231166" y="210.755654" style="fill: #00ff00;"/>
+    <use xlink:href="#circle" x="196.083017" y="203.385856" style="fill: #00ff00;"/>
+    <use xlink:href="#circle" x="180.889208" y="185.11613" style="fill: #00ff00;"/>
+    <use xlink:href="#circle" x="194.144218" y="200.105372" style="fill: #00ff00;"/>
+    
+    <!-- Cluster 3 -->
+    <use xlink:href="#circle" x="254.825706" y="210.083786" style="fill: #0000ff;"/>
+    <use xlink:href="#circle" x="243.876584" y="238.176814" style="fill: #0000ff;"/>
+    <use xlink:href="#circle" x="253.163782" y="228.877006" style="fill: #0000ff;"/>
+    <use xlink:href="#circle" x="243.865548" y="216.52933" style="fill: #0000ff;"/>
+    <use xlink:href="#circle" x="249.284686" y="217.667871" style="fill: #0000ff;"/>
+    <use xlink:href="#circle" x="262.698208" y="227.198674" style="fill: #0000ff;"/>
+    <use xlink:href="#circle" x="249.82257" y="218.92453" style="fill: #0000ff;"/>
+    <use xlink:href="#circle" x="265.069922" y="217.561563" style="fill: #0000ff;"/>
+    <use xlink:href="#circle" x="255.676851" y="216.20593" style="fill: #0000ff;"/>
+    <use xlink:href="#circle" x="248.931479" y="215.559266" style="fill: #0000ff;"/>
+    <use xlink:href="#circle" x="265.14596" y="221.026089" style="fill: #0000ff;"/>
+    <use xlink:href="#circle" x="260.550922" y="225.855012" style="fill: #0000ff;"/>
+    <use xlink:href="#circle" x="247.171333" y="220.485036" style="fill: #0000ff;"/>
+    <use xlink:href="#circle" x="273.848902" y="246.24" style="fill: #0000ff;"/>
+    <use xlink:href="#circle" x="252.75541" y="225.224207" style="fill: #0000ff;"/>
+    <use xlink:href="#circle" x="255.803866" y="208.502636" style="fill: #0000ff;"/>
+    
+    <!-- Outliers -->
+    <use xlink:href="#circle" x="373.581818" y="44.64" style="fill: #ff00ff;"/>
+    <use xlink:href="#circle" x="69.218182" y="96.805292" style="fill: #ff00ff;"/>
+  </g>
 </svg>

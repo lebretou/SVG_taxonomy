@@ -1,7 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
- <g>
-   <path d="M 69.218182 160.072039 L 103.036364 163.318592 L 136.854545 246.24 L 170.672727 154.383602 L 204.490909 130.840114 L 238.309091 132.040609 L 272.127273 136.736737 L 305.945455 44.64 L 339.763636 105.476981 L 373.581818 113.839561" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
-   <path d="M 54 128.888 L 388.8 128.888" style="fill: none; stroke: #ff0000; stroke-width: 1.5; stroke-linecap: square"/>
- </g>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <defs>
+    <style type="text/css">
+      * {stroke-linejoin: round; stroke-linecap: butt}
+    </style>
+  </defs>
+  <g>
+    <path d="M 69.218182 246.24 L 103.036364 44.64 L 136.854545 246.122884 L 170.672727 224.683463 L 204.490909 197.214257 L 238.309091 237.041766 L 272.127273 219.317493 L 305.945455 233.604267 L 339.763636 210.793322 L 373.581818 214.807968" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
+    <!-- Highlighting the lowest point -->
+    <circle cx="103.036364" cy="44.64" r="3" style="fill: red;"/>
+    <!-- Highlighting the highest point -->
+    <circle cx="136.854545" cy="246.122884" r="3" style="fill: green;"/>
+  </g>
 </svg>

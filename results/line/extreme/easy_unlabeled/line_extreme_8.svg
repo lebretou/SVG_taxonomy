@@ -1,30 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
-  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<?xml version="1.0" encoding="utf-8"?>
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <defs>
   <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  </defs>
- <g id="figure_1">
-  <g id="axes_1">
-   <g id="line2d_13">
-    <path d="M 69.218182 82.935139 
-L 103.036364 44.64 
-L 136.854545 112.303812 
-L 170.672727 117.369933 
-L 204.490909 126.047169 
-L 238.309091 156.846999 
-L 272.127273 246.24 
-L 305.945455 181.967878 
-L 339.763636 137.446878 
-L 373.581818 182.485184 
-" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
-   </g>
-   <g id="mean_line">
-    <path d="M 54 137.446878 
-L 388.8 137.446878 
-" style="fill: none; stroke: #ff7f0e; stroke-width: 1.5; stroke-dasharray: 5,5; stroke-linecap: square"/>
-   </g>
+ <g>
+  <g>
+    <path d="M 69.218182 219.529326 L 103.036364 205.617945 L 136.854545 44.64 L 170.672727 192.948395 L 204.490909 195.372036 L 238.309091 202.951763 L 272.127273 228.11416 L 305.945455 246.24 L 339.763636 238.463801 L 373.581818 240.690223" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
+    <!-- Highlighting the lowest point (highest Y value) -->
+    <circle cx="305.945455" cy="246.24" r="3" style="fill: red;"/>
+    <!-- Highlighting the highest point (lowest Y value) -->
+    <circle cx="136.854545" cy="44.64" r="3" style="fill: green;"/>
   </g>
  </g>
 </svg>

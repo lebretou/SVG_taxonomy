@@ -38,9 +38,8 @@ L 322.854545 162.062112
 L 335.536364 168.050461 
 L 348.218182 44.64 
 L 360.9 193.53193 
-L 373.581818 173.501898" 
-style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
-  <use xlink:href="#m560e8c256d" x="196.036364" y="246.24" style="fill: red; stroke: red"/>
-  <use xlink:href="#m560e8c256d" x="348.218182" y="44.64" style="fill: red; stroke: red"/>
+L 373.581818 173.501898" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
+  <use xlink:href="#m560e8c256d" x="196.036364" y="246.24" style="fill: red; stroke: red;"/>
+  <use xlink:href="#m560e8c256d" x="348.218182" y="44.64" style="fill: red; stroke: red;"/>
  </g>
 </svg>

@@ -1,5 +1,8 @@
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
  <g>
-   <path d="M 136.854545 229.464421 L 170.672727 222.588444 L 204.490909 245.564493 L 238.309091 225.739491" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
+  <path d="M 136.854545 229.464421 L 170.672727 222.588444 L 204.490909 245.564493 L 238.309091 225.739491 L 272.127273 240.388149" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
  </g>
 </svg>

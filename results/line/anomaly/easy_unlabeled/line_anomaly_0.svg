@@ -2,38 +2,11 @@
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <defs>
   <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
-  <path id="m0d5faf71a8" d="M 0 3 
-C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
-C 2.683901 1.55874 3 0.795609 3 0 
-C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
-C 1.55874 -2.683901 0.795609 -3 0 -3 
-C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
-C -2.683901 -1.55874 -3 -0.795609 -3 0 
-C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
-C -1.55874 2.683901 -0.795609 3 0 3 
-z" style="stroke: #1f77b4; stroke-opacity: 0.8"/>
  </defs>
  <g>
-  <path d="M 69.218182 208.939384 
-L 103.036364 204.579477 
-L 136.854545 245.88935 
-L 170.672727 225.405285 
-L 204.490909 213.620193 
-L 238.309091 222.850815 
-L 272.127273 219.043677 
-L 305.945455 240.866778 
-L 339.763636 44.64 
-L 373.581818 246.24 
-" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
-  <use xlink:href="#m0d5faf71a8" x="69.218182" y="208.939384" style="fill: #1f77b4; fill-opacity: 0.8; stroke: #1f77b4; stroke-opacity: 0.8"/>
-  <use xlink:href="#m0d5faf71a8" x="103.036364" y="204.579477" style="fill: #1f77b4; fill-opacity: 0.8; stroke: #1f77b4; stroke-opacity: 0.8"/>
-  <use xlink:href="#m0d5faf71a8" x="136.854545" y="245.88935" style="fill: red; fill-opacity: 0.8; stroke: red; stroke-opacity: 0.8"/>
-  <use xlink:href="#m0d5faf71a8" x="170.672727" y="225.405285" style="fill: #1f77b4; fill-opacity: 0.8; stroke: #1f77b4; stroke-opacity: 0.8"/>
-  <use xlink:href="#m0d5faf71a8" x="204.490909" y="213.620193" style="fill: #1f77b4; fill-opacity: 0.8; stroke: #1f77b4; stroke-opacity: 0.8"/>
-  <use xlink:href="#m0d5faf71a8" x="238.309091" y="222.850815" style="fill: #1f77b4; fill-opacity: 0.8; stroke: #1f77b4; stroke-opacity: 0.8"/>
-  <use xlink:href="#m0d5faf71a8" x="272.127273" y="219.043677" style="fill: #1f77b4; fill-opacity: 0.8; stroke: #1f77b4; stroke-opacity: 0.8"/>
-  <use xlink:href="#m0d5faf71a8" x="305.945455" y="240.866778" style="fill: #1f77b4; fill-opacity: 0.8; stroke: #1f77b4; stroke-opacity: 0.8"/>
-  <use xlink:href="#m0d5faf71a8" x="339.763636" y="44.64" style="fill: red; fill-opacity: 0.8; stroke: red; stroke-opacity: 0.8"/>
-  <use xlink:href="#m0d5faf71a8" x="373.581818" y="246.24" style="fill: #1f77b4; fill-opacity: 0.8; stroke: #1f77b4; stroke-opacity: 0.8"/>
+  <g>
+   <path d="M 69.218182 208.939384 L 103.036364 204.579477 L 136.854545 245.88935 L 170.672727 225.405285 L 204.490909 213.620193 L 238.309091 222.850815 L 272.127273 219.043677 L 305.945455 240.866778 L 339.763636 44.64 L 373.581818 246.24" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
+   <circle cx="339.763636" cy="44.64" r="3" style="fill: red; stroke: red;"/>
+  </g>
  </g>
 </svg>
