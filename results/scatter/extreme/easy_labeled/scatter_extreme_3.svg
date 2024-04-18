@@ -1,31 +1,40 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="432pt" height="288pt" viewBox="0 0 432 288">
-<g transform="translate(0,288) scale(0.1,-0.1)" fill="#000000" stroke="none">
-    <!-- Points with default color -->
-    <circle cx="92.188862" cy="180.196533" r="30" fill="#1f77b4"/>
-    <circle cx="77.681242" cy="200.228736" r="30" fill="#1f77b4"/>
-    <circle cx="97.471266" cy="197.392752" r="30" fill="#1f77b4"/>
-    <circle cx="72.253569" cy="187.628117" r="30" fill="#1f77b4"/>
-    <circle cx="95.335491" cy="190.383339" r="30" fill="#1f77b4"/>
-    <circle cx="90.576291" cy="158.838633" r="30" fill="#1f77b4"/>
-    <circle cx="89.065534" cy="179.053636" r="30" fill="#1f77b4"/>
-    <circle cx="339.467161" cy="80.20599" r="30" fill="#1f77b4"/>
-    <circle cx="310.390777" cy="60.647896" r="30" fill="#1f77b4"/>
-    <circle cx="322.776983" cy="47.676097" r="30" fill="#1f77b4"/>
-    <circle cx="293.032504" cy="108.004872" r="30" fill="#1f77b4"/>
-    <circle cx="313.215706" cy="79.666456" r="30" fill="#1f77b4"/>
-    <circle cx="328.306916" cy="53.023211" r="30" fill="#1f77b4"/>
-    <circle cx="284.878116" cy="44.64" r="30" fill="#1f77b4"/>
-    <circle cx="310.93279" cy="67.519995" r="30" fill="#1f77b4"/>
-    <circle cx="300.174958" cy="116.833421" r="30" fill="#1f77b4"/>
-    <circle cx="285.696316" cy="75.171981" r="30" fill="#1f77b4"/>
-    <circle cx="373.581818" cy="59.918743" r="30" fill="#1f77b4"/>
-
-    <!-- Extremum points with different color -->
-    <circle cx="69.218182" cy="240.250927" r="30" fill="red"/> <!-- Highest Y -->
-    <circle cx="106.499134" cy="211.981645" r="30" fill="red"/> <!-- Lowest Y -->
-</g>
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  <path id="m28debcfb26" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #1f77b4; stroke-opacity: 0.6"/>
+ </defs>
+ <g>
+  <use xlink:href="#m28debcfb26" x="77.385389" y="150.747033" style="fill: #1f77b4; fill-opacity: 0.6; stroke: #1f77b4; stroke-opacity: 0.6"/>
+  <use xlink:href="#m28debcfb26" x="69.218182" y="165.769368" style="fill: #1f77b4; fill-opacity: 0.6; stroke: #1f77b4; stroke-opacity: 0.6"/>
+  <use xlink:href="#m28debcfb26" x="87.485942" y="159.360609" style="fill: #1f77b4; fill-opacity: 0.6; stroke: #1f77b4; stroke-opacity: 0.6"/>
+  <use xlink:href="#m28debcfb26" x="91.698027" y="178.573361" style="fill: #1f77b4; fill-opacity: 0.6; stroke: #1f77b4; stroke-opacity: 0.6"/>
+  <use xlink:href="#m28debcfb26" x="80.255173" y="173.971585" style="fill: #1f77b4; fill-opacity: 0.6; stroke: #1f77b4; stroke-opacity: 0.6"/>
+  <use xlink:href="#m28debcfb26" x="81.313987" y="177.03214" style="fill: #1f77b4; fill-opacity: 0.6; stroke: #1f77b4; stroke-opacity: 0.6"/>
+  <use xlink:href="#m28debcfb26" x="70.958234" y="194.458164" style="fill: #1f77b4; fill-opacity: 0.6; stroke: #1f77b4; stroke-opacity: 0.6"/>
+  <use xlink:href="#m28debcfb26" x="84.315134" y="178.906032" style="fill: #1f77b4; fill-opacity: 0.6; stroke: #1f77b4; stroke-opacity: 0.6"/>
+  <use xlink:href="#m28debcfb26" x="88.594832" y="149.453456" style="fill: #1f77b4; fill-opacity: 0.6; stroke: #1f77b4; stroke-opacity: 0.6"/>
+  <use xlink:href="#m28debcfb26" x="77.253003" y="151.278667" style="fill: #1f77b4; fill-opacity: 0.6; stroke: #1f77b4; stroke-opacity: 0.6"/>
+  <use xlink:href="#m28debcfb26" x="166.878184" y="203.701346" style="fill: #1f77b4; fill-opacity: 0.6; stroke: #1f77b4; stroke-opacity: 0.6"/>
+  <use xlink:href="#m28debcfb26" x="173.896889" y="225.432864" style="fill: #1f77b4; fill-opacity: 0.6; stroke: #1f77b4; stroke-opacity: 0.6"/>
+  <use xlink:href="#m28debcfb26" x="157.544793" y="195.215743" style="fill: #1f77b4; fill-opacity: 0.6; stroke: #1f77b4; stroke-opacity: 0.6"/>
+  <use xlink:href="#m28debcfb26" x="182.639475" y="237.031213" style="fill: #1f77b4; fill-opacity: 0.6; stroke: #1f77b4; stroke-opacity: 0.6"/>
+  <use xlink:href="#m28debcfb26" x="186.57468" y="246.24" style="fill: red; fill-opacity: 0.6; stroke: red; stroke-opacity: 0.6"/>
+  <use xlink:href="#m28debcfb26" x="177.386555" y="221.577334" style="fill: #1f77b4; fill-opacity: 0.6; stroke: #1f77b4; stroke-opacity: 0.6"/>
+  <use xlink:href="#m28debcfb26" x="174.425551" y="233.076712" style="fill: #1f77b4; fill-opacity: 0.6; stroke: #1f77b4; stroke-opacity: 0.6"/>
+  <use xlink:href="#m28debcfb26" x="166.381738" y="232.078227" style="fill: #1f77b4; fill-opacity: 0.6; stroke: #1f77b4; stroke-opacity: 0.6"/>
+  <use xlink:href="#m28debcfb26" x="192.86884" y="214.957632" style="fill: #1f77b4; fill-opacity: 0.6; stroke: #1f77b4; stroke-opacity: 0.6"/>
+  <use xlink:href="#m28debcfb26" x="170.966693" y="225.529194" style="fill: #1f77b4; fill-opacity: 0.6; stroke: #1f77b4; stroke-opacity: 0.6"/>
+  <use xlink:href="#m28debcfb26" x="373.581818" y="44.64" style="fill: red; fill-opacity: 0.6; stroke: red; stroke-opacity: 0.6"/>
+ </g>
 </svg>

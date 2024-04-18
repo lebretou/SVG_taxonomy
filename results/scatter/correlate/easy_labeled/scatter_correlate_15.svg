@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <g>
+    <defs>
+      <path id="circle" d="M 0 3 C 0.795609 3 1.55874 2.683901 2.12132 2.12132 C 2.683901 1.55874 3 0.795609 3 0 C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 C 1.55874 -2.683901 0.795609 -3 0 -3 C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 C -2.683901 -1.55874 -3 -0.795609 -3 0 C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 C -1.55874 2.683901 -0.795609 3 0 3 Z" style="stroke: #1f77b4; stroke-opacity: 0.6"/>
+    </defs>
+    <use xlink:href="#circle" x="164.46252" y="163.211249"/>
+    <use xlink:href="#circle" x="182.258716" y="214.321908"/>
+    <use xlink:href="#circle" x="178.327586" y="173.7831"/>
+    <use xlink:href="#circle" x="182.589958" y="205.527454"/>
+    <use xlink:href="#circle" x="169.030492" y="186.3646"/>
+    <use xlink:href="#circle" x="143.248179" y="229.115261"/>
+    <use xlink:href="#circle" x="184.305163" y="155.500435"/>
+    <use xlink:href="#circle" x="181.13069" y="169.902104"/>
+    <use xlink:href="#circle" x="181.981924" y="184.566503"/>
+    <use xlink:href="#circle" x="184.958606" y="131.823024"/>
+    <use xlink:href="#circle" x="354.522075" y="106.220338"/>
+    <use xlink:href="#circle" x="348.55857" y="159.106507"/>
+    <use xlink:href="#circle" x="363.944944" y="97.388759"/>
+    <use xlink:href="#circle" x="320.201364" y="98.473109"/>
+    <use xlink:href="#circle" x="356.914435" y="102.305066"/>
+    <use xlink:href="#circle" x="335.960997" y="129.500604"/>
+    <use xlink:href="#circle" x="349.909303" y="99.77915"/>
+    <use xlink:href="#circle" x="373.581818" y="97.794442"/>
+    <use xlink:href="#circle" x="329.495266" y="44.64"/>
+    <use xlink:href="#circle" x="335.499502" y="106.692001"/>
+    <use xlink:href="#circle" x="69.218182" y="246.24"/>
+    <line x1="69.218182" y1="246.24" x2="373.581818" y2="97.794442" style="stroke: #ff7f0e; stroke-width: 2"/>
+  </g>
+</svg>

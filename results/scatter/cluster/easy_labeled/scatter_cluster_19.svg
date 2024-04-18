@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
   <g>
-    <!-- Cluster 1 Points -->
-    <circle cx="79.894641" cy="221.725911" r="3" fill="#ff0000"/>
-    <circle cx="126.555077" cy="203.483883" r="3" fill="#ff0000"/>
-    <circle cx="78.759151" cy="217.151705" r="3" fill="#ff0000"/>
-    <circle cx="97.959997" cy="233.784502" r="3" fill="#ff0000"/>
-    <circle cx="89.526922" cy="212.876049" r="3" fill="#ff0000"/>
-    <circle cx="70.789213" cy="216.582185" r="3" fill="#ff0000"/>
-    <circle cx="89.602781" cy="225.833221" r="3" fill="#ff0000"/>
-    <circle cx="96.832545" cy="238.195554" r="3" fill="#ff0000"/>
-    <circle cx="69.218182" cy="246.24" r="3" fill="#ff0000"/>
-    <circle cx="106.862227" cy="238.501676" r="3" fill="#ff0000"/>
-    
-    <!-- Cluster 2 Points -->
-    <circle cx="265.537033" cy="123.591862" r="3" fill="#00ff00"/>
-    <circle cx="243.456135" cy="158.954184" r="3" fill="#00ff00"/>
-    <circle cx="257.585775" cy="145.922245" r="3" fill="#00ff00"/>
-    <circle cx="255.271311" cy="181.79969" r="3" fill="#00ff00"/>
-    <circle cx="262.116497" cy="157.34499" r="3" fill="#00ff00"/>
-    <circle cx="253.470266" cy="164.072891" r="3" fill="#00ff00"/>
-    <circle cx="256.231272" cy="130.319615" r="3" fill="#00ff00"/>
-    <circle cx="239.585888" cy="145.615655" r="3" fill="#00ff00"/>
-    <circle cx="214.424975" cy="171.922511" r="3" fill="#00ff00"/>
-    <circle cx="231.555244" cy="136.816218" r="3" fill="#00ff00"/>
-    
-    <!-- Cluster 3 Points -->
-    <circle cx="373.581818" cy="44.64" r="3" fill="#0000ff"/>
+    <!-- Cluster 1: Points near (0.69, -1.07), (0.77, 0.40), (0.38, 0.49), (0.82, -0.74), (0.52, 0.33), (1.23, 0.02), (1.25, 27.91) -->
+    <circle cx="113.802696" cy="235.694214" r="3" style="fill: #ff0000;"/>
+    <circle cx="115.579104" cy="226.002582" r="3" style="fill: #ff0000;"/>
+    <circle cx="106.551021" cy="225.389309" r="3" style="fill: #ff0000;"/>
+    <circle cx="116.627113" cy="233.504625" r="3" style="fill: #ff0000;"/>
+    <circle cx="109.954444" cy="226.46924" r="3" style="fill: #ff0000;"/>
+    <circle cx="126.100668" cy="228.479151" r="3" style="fill: #ff0000;"/>
+    <circle cx="126.627073" cy="44.64" r="3" style="fill: #ff0000;"/>
+
+    <!-- Cluster 2: Points near (-1.22, -2.67), (-0.55, 1.11), (-0.53, 0.82), (-1.25, -2.22) -->
+    <circle cx="69.922188" cy="246.24" r="3" style="fill: #0000ff;"/>
+    <circle cx="85.239055" cy="221.281145" r="3" style="fill: #0000ff;"/>
+    <circle cx="85.64931" cy="223.207765" r="3" style="fill: #0000ff;"/>
+    <circle cx="69.218182" cy="243.258607" r="3" style="fill: #0000ff;"/>
+
+    <!-- Cluster 3: Points near (10.55, 2.33), (11.99, 1.67), (9.40, 3.72), (11.26, 2.71), (9.84, 1.51), (9.46, 0.80), (10.42, 4.11), (11.57, 1.54), (9.03, 1.75), (9.21, 4.07) -->
+    <circle cx="340.560773" cy="213.285671" r="3" style="fill: #00ff00;"/>
+    <circle cx="373.581818" cy="217.632806" r="3" style="fill: #00ff00;"/>
+    <circle cx="314.102061" cy="204.079016" r="3" style="fill: #00ff00;"/>
+    <circle cx="356.69258" cy="210.789303" r="3" style="fill: #00ff00;"/>
+    <circle cx="324.200141" cy="218.700157" r="3" style="fill: #00ff00;"/>
+    <circle cx="315.345073" cy="223.334013" r="3" style="fill: #00ff00;"/>
+    <circle cx="337.381728" cy="201.539925" r="3" style="fill: #00ff00;"/>
+    <circle cx="363.967539" cy="218.492352" r="3" style="fill: #00ff00;"/>
+    <circle cx="305.501713" cy="217.118022" r="3" style="fill: #00ff00;"/>
+    <circle cx="309.602572" cy="201.820021" r="3" style="fill: #00ff00;"/>
   </g>
 </svg>

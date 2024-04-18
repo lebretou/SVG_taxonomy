@@ -119,10 +119,64 @@ def generate_bar_dataset(n_points, num_spikes, num_drops, file_name, output_fold
     full_path = os.path.join(output_folder, f'{file_name}.csv')
     df.to_csv(full_path, index=False)
 
+def generate_distribution_dataset(n_points, distribution_type, file_name, output_folder):
+    """
+    Generate a dataset with a given number of points following a specified distribution type.
+    """
+    if distribution_type == 'normal':
+        x = np.random.normal(loc=0, scale=1, size=n_points)
+        y = np.random.normal(loc=0, scale=1, size=n_points)
+    elif distribution_type == 'binomial':
+        x = np.random.binomial(n=10, p=0.5, size=n_points)
+        y = np.random.binomial(n=10, p=0.5, size=n_points)
+    elif distribution_type == 'uniform':
+        x = np.random.uniform(low=0, high=1, size=n_points)
+        y = np.random.uniform(low=0, high=1, size=n_points)
+    else:
+        raise ValueError(f"Invalid distribution type: {distribution_type}")
+    
+    # Create a DataFrame
+    df = pd.DataFrame({'X': x, 'Y': y})
+    
+    # Check if the folder exists; if not, create it
+    os.makedirs(output_folder, exist_ok=True)
+    
+    # Save to CSV in the specified folder
+    full_path = os.path.join(output_folder, f'{file_name}.csv')
+    df.to_csv(full_path, index=False)
+    
+    print(f"Generated dataset with {distribution_type} distribution: {file_name}.csv")
+
+def generate_distribution_bar_dataset(n_points, distribution_type, file_name, output_folder):
+    """
+    Generate a dataset for a bar plot with a given number of points following a specified distribution type.
+    """
+    x = np.arange(1, n_points + 1)
+    
+    if distribution_type == 'normal':
+        y = np.abs(np.random.normal(loc=0, scale=1, size=n_points))
+    elif distribution_type == 'binomial':
+        y = np.random.binomial(n=10, p=0.5, size=n_points)
+    elif distribution_type == 'uniform':
+        y = np.random.uniform(low=0, high=1, size=n_points)
+    else:
+        raise ValueError(f"Invalid distribution type: {distribution_type}")
+    
+    # Create a DataFrame
+    df = pd.DataFrame({'X': x, 'Y': y})
+    
+    # Check if the folder exists; if not, create it
+    os.makedirs(output_folder, exist_ok=True)
+    
+    # Save to CSV in the specified folder
+    full_path = os.path.join(output_folder, f'{file_name}.csv')
+    df.to_csv(full_path, index=False)
+    
+    print(f"Generated distribution bar dataset with {distribution_type} distribution: {file_name}.csv")
 
 def main():
     parser = argparse.ArgumentParser(description='Generate dataset for scatter or line plots.')
-    parser.add_argument('--data_type', type=str, required=True, choices=['scatter', 'line', 'bar'], help='Type of dataset to generate (scatter or line)')
+    parser.add_argument('--data_type', type=str, required=True, choices=['scatter', 'line', 'bar', 'distribution', 'distribution_bar'], help='Type of dataset to generate (scatter or line)')
     parser.add_argument('--n_points', type=int, required=True, help='Number of data points to generate')
     parser.add_argument('--n_datasets', type=int, default=1, help='Number of datasets to generate (default: 1)')
     parser.add_argument('--output_folder', type=str, default='./dataset', help='Output folder path (default: ./dataset)')
@@ -161,6 +215,16 @@ def main():
             num_drops = 1
             file_name = f"bar_data_{i}"
             generate_bar_dataset(n_points, num_spikes, num_drops, file_name, output_folder)
+        elif data_type == 'distribution':
+            distribution_types = ['normal', 'binomial', 'uniform']
+            distribution_type = np.random.choice(distribution_types)
+            file_name = f"data_{i}"
+            generate_distribution_dataset(n_points, distribution_type, file_name, output_folder)
+        elif data_type == 'distribution_bar':
+            distribution_types = ['normal', 'binomial', 'uniform']
+            distribution_type = np.random.choice(distribution_types)
+            file_name = f"data_{i}"
+            generate_distribution_bar_dataset(n_points, distribution_type, file_name, output_folder)
 
     print(f"Generated {n_datasets} datasets for {data_type} plots.")
 

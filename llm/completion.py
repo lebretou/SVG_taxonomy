@@ -10,7 +10,7 @@ from tenacity import (
     wait_random_exponential,
 )
 
-OPENAI_API_KEY = ""
+OPENAI_API_KEY = "sk-proj-EbghHjpQ5Q8bOLcifD4ZT3BlbkFJbwVkdZot7CQ9gPgxyYM9"
 
 headers = {
     "Content-Type": "application/json",
@@ -57,7 +57,7 @@ async def get_completion_list(content_list, max_parallel_calls, timeout=100):
         return [completion_dict[i] for i in range(len(content_list))]
 
 async def main():
-    prompt_list = generate_prompts("Scatter Plot", "Determine Range", "labeled", "../images/scatter/hard_labeled")
+    prompt_list = generate_prompts("Bar Plot", "Characterize Distribution", "labeled", "../images/bar/easy_labeled_distribution")
     start_time = time.perf_counter()
     # completion_list = await get_completion_list(["Ping", "Pong"], 100, 1000)
 
@@ -66,9 +66,9 @@ async def main():
 
 
     # Save the files
-    # save_svg_files(completion_list, "../results/scatter/correlate/hard_unlabeled", "scatter_correlate")
-    # save_csv_files(completion_list, "../results/scatter/retrieval/hard_unlabeled", "scatter_retrieval")
-    save_value_files(completion_list, "../results/scatter/range/hard_labeled", "scatter_range.txt")
+    # save_svg_files(completion_list, "../results/scatter/range/easy_labeled", "scatter_correlate")
+    # save_csv_files(completion_list, "../results/scatter/retrieval/easy_labeled", "scatter_retrieval")
+    save_value_files(completion_list, "../results/bar/distribution/easy_labeled", "bar_distribution.txt")
 
 
 

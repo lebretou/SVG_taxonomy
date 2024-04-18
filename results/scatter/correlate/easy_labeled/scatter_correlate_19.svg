@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <g fill="none" stroke="black" stroke-width="2">
+        <!-- Data Points -->
+        <circle cx="69.922188" cy="246.24" r="3"/>
+        <circle cx="113.802696" cy="235.694214" r="3"/>
+        <circle cx="85.239055" cy="221.281145" r="3"/>
+        <circle cx="85.64931" cy="223.207765" r="3"/>
+        <circle cx="115.579104" cy="226.002582" r="3"/>
+        <circle cx="106.551021" cy="225.389309" r="3"/>
+        <circle cx="116.627113" cy="233.504625" r="3"/>
+        <circle cx="109.954444" cy="226.46924" r="3"/>
+        <circle cx="126.100668" cy="228.479151" r="3"/>
+        <circle cx="69.218182" cy="243.258607" r="3"/>
+        <circle cx="340.560773" cy="213.285671" r="3"/>
+        <circle cx="373.581818" cy="217.632806" r="3"/>
+        <circle cx="314.102061" cy="204.079016" r="3"/>
+        <circle cx="356.69258" cy="210.789303" r="3"/>
+        <circle cx="324.200141" cy="218.700157" r="3"/>
+        <circle cx="315.345073" cy="223.334013" r="3"/>
+        <circle cx="337.381728" cy="201.539925" r="3"/>
+        <circle cx="363.967539" cy="218.492352" r="3"/>
+        <circle cx="305.501713" cy="217.118022" r="3"/>
+        <circle cx="309.602572" cy="201.820021" r="3"/>
+        <circle cx="126.627073" cy="44.64" r="3"/>
+
+        <!-- Fitted Line (Example, replace with actual linear regression result) -->
+        <line x1="50" y1="250" x2="380" y2="50" stroke="red" stroke-width="2"/>
+    </g>
+</svg>

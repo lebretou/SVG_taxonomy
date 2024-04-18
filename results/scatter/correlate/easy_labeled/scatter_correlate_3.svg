@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <g fill="none" stroke="black" stroke-width="2">
+        <!-- Data Points -->
+        <circle cx="77.385389" cy="150.747033" r="3" fill="blue"/>
+        <circle cx="69.218182" cy="165.769368" r="3" fill="blue"/>
+        <circle cx="87.485942" cy="159.360609" r="3" fill="blue"/>
+        <circle cx="91.698027" cy="178.573361" r="3" fill="blue"/>
+        <circle cx="80.255173" cy="173.971585" r="3" fill="blue"/>
+        <circle cx="81.313987" cy="177.03214" r="3" fill="blue"/>
+        <circle cx="70.958234" cy="194.458164" r="3" fill="blue"/>
+        <circle cx="84.315134" cy="178.906032" r="3" fill="blue"/>
+        <circle cx="88.594832" cy="149.453456" r="3" fill="blue"/>
+        <circle cx="77.253003" cy="151.278667" r="3" fill="blue"/>
+        <circle cx="166.878184" cy="203.701346" r="3" fill="blue"/>
+        <circle cx="173.896889" cy="225.432864" r="3" fill="blue"/>
+        <circle cx="157.544793" cy="195.215743" r="3" fill="blue"/>
+        <circle cx="182.639475" cy="237.031213" r="3" fill="blue"/>
+        <circle cx="186.57468" cy="246.24" r="3" fill="blue"/>
+        <circle cx="177.386555" cy="221.577334" r="3" fill="blue"/>
+        <circle cx="174.425551" cy="233.076712" r="3" fill="blue"/>
+        <circle cx="166.381738" cy="232.078227" r="3" fill="blue"/>
+        <circle cx="192.86884" cy="214.957632" r="3" fill="blue"/>
+        <circle cx="170.966693" cy="225.529194" r="3" fill="blue"/>
+        <circle cx="373.581818" cy="44.64" r="3" fill="blue"/>
+        <!-- Fitted Line -->
+        <line x1="50" y1="250" x2="400" y2="50" stroke="red"/>
+    </g>
+</svg>

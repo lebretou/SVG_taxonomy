@@ -1,26 +1,39 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="utf-8"?>
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
-  <g>
-    <circle cx="250.34699" cy="59.56573" r="3" style="fill: red;"/>
-    <circle cx="253.581407" cy="44.64" r="3" style="fill: red;"/>
-    <circle cx="276.189498" cy="54.050218" r="3" style="fill: red;"/>
-    <circle cx="230.832002" cy="67.574957" r="3" style="fill: red;"/>
-    <circle cx="304.35064" cy="69.058875" r="3" style="fill: red;"/>
-    <circle cx="237.306282" cy="73.799386" r="3" style="fill: red;"/>
-    <circle cx="260.206378" cy="64.268011" r="3" style="fill: red;"/>
-    <circle cx="294.741347" cy="60.523019" r="3" style="fill: red;"/>
-    <circle cx="274.360437" cy="45.315518" r="3" style="fill: red;"/>
-    <circle cx="271.917809" cy="117.161044" r="3" style="fill: red;"/>
-    <circle cx="373.581818" cy="158.920585" r="3" style="fill: red;"/>
-    <circle cx="81.774344" cy="246.24" r="3" style="fill: blue;"/>
-    <circle cx="78.650238" cy="139.268875" r="3" style="fill: blue;"/>
-    <circle cx="104.039517" cy="108.804167" r="3" style="fill: blue;"/>
-    <circle cx="77.898532" cy="189.283447" r="3" style="fill: blue;"/>
-    <circle cx="103.545447" cy="181.034244" r="3" style="fill: blue;"/>
-    <circle cx="106.826096" cy="164.021896" r="3" style="fill: blue;"/>
-    <circle cx="105.195039" cy="202.429399" r="3" style="fill: blue;"/>
-    <circle cx="69.218182" cy="243.811211" r="3" style="fill: blue;"/>
-    <circle cx="90.534983" cy="209.378229" r="3" style="fill: blue;"/>
-    <circle cx="118.416077" cy="207.045167" r="3" style="fill: blue;"/>
-  </g>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  <path id="m32efad7cec" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z"/>
+ </defs>
+ <g>
+  <use xlink:href="#m32efad7cec" x="188.265894" y="200.810472" style="fill: #1f77b4; stroke: #1f77b4"/>
+  <use xlink:href="#m32efad7cec" x="197.094247" y="203.701841" style="fill: #1f77b4; stroke: #1f77b4"/>
+  <use xlink:href="#m32efad7cec" x="176.869696" y="232.44701" style="fill: #1f77b4; stroke: #1f77b4"/>
+  <use xlink:href="#m32efad7cec" x="180.077693" y="244.014744" style="fill: red; stroke: red"/>
+  <use xlink:href="#m32efad7cec" x="209.604058" y="192.781155" style="fill: #1f77b4; stroke: #1f77b4"/>
+  <use xlink:href="#m32efad7cec" x="208.975132" y="237.684593" style="fill: #1f77b4; stroke: #1f77b4"/>
+  <use xlink:href="#m32efad7cec" x="186.365276" y="210.716266" style="fill: #1f77b4; stroke: #1f77b4"/>
+  <use xlink:href="#m32efad7cec" x="159.292624" y="221.786417" style="fill: #1f77b4; stroke: #1f77b4"/>
+  <use xlink:href="#m32efad7cec" x="214.260275" y="226.377487" style="fill: #1f77b4; stroke: #1f77b4"/>
+  <use xlink:href="#m32efad7cec" x="211.455709" y="205.422078" style="fill: #1f77b4; stroke: #1f77b4"/>
+  <use xlink:href="#m32efad7cec" x="350.680023" y="213.041459" style="fill: #1f77b4; stroke: #1f77b4"/>
+  <use xlink:href="#m32efad7cec" x="340.398841" y="227.910871" style="fill: #1f77b4; stroke: #1f77b4"/>
+  <use xlink:href="#m32efad7cec" x="359.107561" y="222.262551" style="fill: #1f77b4; stroke: #1f77b4"/>
+  <use xlink:href="#m32efad7cec" x="324.3585" y="246.24" style="fill: #1f77b4; stroke: #1f77b4"/>
+  <use xlink:href="#m32efad7cec" x="363.308079" y="230.225841" style="fill: #1f77b4; stroke: #1f77b4"/>
+  <use xlink:href="#m32efad7cec" x="325.650174" y="232.825423" style="fill: #1f77b4; stroke: #1f77b4"/>
+  <use xlink:href="#m32efad7cec" x="365.331852" y="217.06022" style="fill: #1f77b4; stroke: #1f77b4"/>
+  <use xlink:href="#m32efad7cec" x="371.309016" y="216.276265" style="fill: #1f77b4; stroke: #1f77b4"/>
+  <use xlink:href="#m32efad7cec" x="370.249181" y="199.611949" style="fill: #1f77b4; stroke: #1f77b4"/>
+  <use xlink:href="#m32efad7cec" x="373.581818" y="234.508913" style="fill: #1f77b4; stroke: #1f77b4"/>
+  <use xlink:href="#m32efad7cec" x="69.218182" y="44.64" style="fill: green; stroke: green"/>
+ </g>
 </svg>

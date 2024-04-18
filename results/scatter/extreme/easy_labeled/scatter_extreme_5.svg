@@ -1,29 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
-  <g>
-    <defs>
-      <path id="circle" d="M 0 3 C 0.795609 3 1.55874 2.683901 2.12132 2.12132 C 2.683901 1.55874 3 0.795609 3 0 C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 C 1.55874 -2.683901 0.795609 -3 0 -3 C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 C -2.683901 -1.55874 -3 -0.795609 -3 0 C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 C -1.55874 2.683901 -0.795609 3 0 3 Z"/>
-    </defs>
-    <use xlink:href="#circle" x="260.376717" y="44.64" style="fill: red; stroke: red;"/>
-    <use xlink:href="#circle" x="319.544776" y="246.24" style="fill: red; stroke: red;"/>
-    <use xlink:href="#circle" x="74.299571" y="177.845852" style="fill: blue; stroke: blue;"/>
-    <use xlink:href="#circle" x="117.248466" y="167.273397" style="fill: blue; stroke: blue;"/>
-    <use xlink:href="#circle" x="121.928024" y="121.212601" style="fill: blue; stroke: blue;"/>
-    <use xlink:href="#circle" x="102.058473" y="142.769074" style="fill: blue; stroke: blue;"/>
-    <use xlink:href="#circle" x="103.286936" y="158.281049" style="fill: blue; stroke: blue;"/>
-    <use xlink:href="#circle" x="69.218182" y="143.378281" style="fill: blue; stroke: blue;"/>
-    <use xlink:href="#circle" x="99.815809" y="75.963263" style="fill: blue; stroke: blue;"/>
-    <use xlink:href="#circle" x="126.625132" y="182.393666" style="fill: blue; stroke: blue;"/>
-    <use xlink:href="#circle" x="94.460646" y="137.784597" style="fill: blue; stroke: blue;"/>
-    <use xlink:href="#circle" x="119.780932" y="160.260764" style="fill: blue; stroke: blue;"/>
-    <use xlink:href="#circle" x="373.581818" y="209.08745" style="fill: blue; stroke: blue;"/>
-    <use xlink:href="#circle" x="317.969238" y="198.869201" style="fill: blue; stroke: blue;"/>
-    <use xlink:href="#circle" x="324.918059" y="209.344059" style="fill: blue; stroke: blue;"/>
-    <use xlink:href="#circle" x="326.132837" y="211.412598" style="fill: blue; stroke: blue;"/>
-    <use xlink:href="#circle" x="341.045087" y="209.351421" style="fill: blue; stroke: blue;"/>
-    <use xlink:href="#circle" x="316.105484" y="177.786335" style="fill: blue; stroke: blue;"/>
-    <use xlink:href="#circle" x="319.471084" y="158.154291" style="fill: blue; stroke: blue;"/>
-    <use xlink:href="#circle" x="345.937435" y="214.802928" style="fill: blue; stroke: blue;"/>
-    <use xlink:href="#circle" x="364.64658" y="217.4272" style="fill: blue; stroke: blue;"/>
-  </g>
+ <defs>
+  <path id="extremumPoint" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z" style="stroke: #ff0000; stroke-opacity: 1"/>
+  <path id="regularPoint" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z" style="stroke: #1f77b4; stroke-opacity: 0.6"/>
+ </defs>
+ <g>
+  <use xlink:href="#regularPoint" x="113.445577" y="46.304291"/>
+  <use xlink:href="#regularPoint" x="120.780959" y="44.64"/>
+  <use xlink:href="#regularPoint" x="108.989845" y="65.459718"/>
+  <use xlink:href="#regularPoint" x="113.244676" y="79.46795"/>
+  <use xlink:href="#regularPoint" x="115.327756" y="99.247732"/>
+  <use xlink:href="#regularPoint" x="103.134949" y="63.638925"/>
+  <use xlink:href="#regularPoint" x="109.876143" y="69.187473"/>
+  <use xlink:href="#regularPoint" x="117.343775" y="79.887482"/>
+  <use xlink:href="#regularPoint" x="136.700497" y="67.237084"/>
+  <use xlink:href="#regularPoint" x="69.218182" y="81.556603"/>
+  <use xlink:href="#regularPoint" x="318.968921" y="122.630042"/>
+  <use xlink:href="#regularPoint" x="341.06443" y="131.996759"/>
+  <use xlink:href="#regularPoint" x="322.407547" y="114.948516"/>
+  <use xlink:href="#regularPoint" x="359.029029" y="97.364674"/>
+  <use xlink:href="#regularPoint" x="333.97166" y="151.638391"/>
+  <use xlink:href="#regularPoint" x="352.600939" y="150.075181"/>
+  <use xlink:href="#regularPoint" x="315.050528" y="133.467465"/>
+  <!-- Extremum Points -->
+  <use xlink:href="#extremumPoint" x="361.147773" y="147.985224"/> <!-- Highest Y -->
+  <use xlink:href="#extremumPoint" x="364.386411" y="162.58107"/> <!-- Lowest Y -->
+  <use xlink:href="#extremumPoint" x="373.581818" y="158.248002"/>
+  <use xlink:href="#extremumPoint" x="363.959155" y="246.24"/>
+ </g>
 </svg>

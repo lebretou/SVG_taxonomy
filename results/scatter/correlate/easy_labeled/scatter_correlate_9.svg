@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <g fill="none" stroke="black" stroke-width="2">
+        <!-- Data Points -->
+        <circle cx="104.452344" cy="142.182001" r="3"/>
+        <circle cx="120.392653" cy="131.093612" r="3"/>
+        <circle cx="83.425759" cy="172.2948" r="3"/>
+        <circle cx="69.218182" cy="169.752344" r="3"/>
+        <circle cx="132.411558" cy="130.361389" r="3"/>
+        <circle cx="128.487995" cy="151.610997" r="3"/>
+        <circle cx="109.430757" cy="147.464371" r="3"/>
+        <circle cx="123.590473" cy="166.563625" r="3"/>
+        <circle cx="152.114269" cy="126.900751" r="3"/>
+        <circle cx="105.517872" cy="144.239337" r="3"/>
+        <circle cx="348.093257" cy="83.726464" r="3"/>
+        <circle cx="333.524205" cy="77.558085" r="3"/>
+        <circle cx="355.803454" cy="114.547856" r="3"/>
+        <circle cx="331.923256" cy="76.057639" r="3"/>
+        <circle cx="355.766803" cy="90.274" r="3"/>
+        <circle cx="373.581818" cy="84.550833" r="3"/>
+        <circle cx="352.104426" cy="44.64" r="3"/>
+        <circle cx="345.346108" cy="56.815649" r="3"/>
+        <circle cx="369.893054" cy="87.098021" r="3"/>
+        <circle cx="339.807893" cy="81.912528" r="3"/>
+        <circle cx="180.910355" cy="246.24" r="3"/>
+        <!-- Fitted Line -->
+        <line x1="69.218182" y1="169.752344" x2="373.581818" y2="84.550833" stroke="red" stroke-width="2"/>
+    </g>
+</svg>

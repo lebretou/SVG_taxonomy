@@ -1,26 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
-  <g>
-    <circle cx="113.18688" cy="41.76" r="3" fill="red"/>
-    <circle cx="252.44857" cy="69.470761" r="3" fill="red"/>
-    <circle cx="100.999074" cy="192.29474" r="3" fill="#1f77b4"/>
-    <circle cx="137.446176" cy="223.197847" r="3" fill="#1f77b4"/>
-    <circle cx="114.913638" cy="107.598466" r="3" fill="#1f77b4"/>
-    <circle cx="122.959743" cy="165.950035" r="3" fill="#1f77b4"/>
-    <circle cx="91.623604" cy="135.157712" r="3" fill="#1f77b4"/>
-    <circle cx="69.218182" cy="146.676975" r="3" fill="#1f77b4"/>
-    <circle cx="70.668931" cy="243.36" r="3" fill="#1f77b4"/>
-    <circle cx="104.149802" cy="194.673616" r="3" fill="#1f77b4"/>
-    <circle cx="92.030371" cy="149.986713" r="3" fill="#1f77b4"/>
-    <circle cx="331.353371" cy="202.816919" r="3" fill="#1f77b4"/>
-    <circle cx="355.982463" cy="93.443325" r="3" fill="#1f77b4"/>
-    <circle cx="313.377233" cy="69.975715" r="3" fill="#1f77b4"/>
-    <circle cx="345.194023" cy="79.581893" r="3" fill="#1f77b4"/>
-    <circle cx="373.581818" cy="229.559276" r="3" fill="#1f77b4"/>
-    <circle cx="335.705044" cy="156.323637" r="3" fill="#1f77b4"/>
-    <circle cx="369.306285" cy="136.75246" r="3" fill="#1f77b4"/>
-    <circle cx="334.913936" cy="135.038983" r="3" fill="#1f77b4"/>
-    <circle cx="351.953363" cy="159.009478" r="3" fill="#1f77b4"/>
-    <circle cx="370.656162" cy="135.331063" r="3" fill="#1f77b4"/>
-  </g>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  <path id="mfb7bc452bd" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z"/>
+ </defs>
+ <g>
+  <use xlink:href="#mfb7bc452bd" x="82.208418" y="206.217168" style="fill: #1f77b4;"/>
+  <use xlink:href="#mfb7bc452bd" x="87.408081" y="215.346624" style="fill: #1f77b4;"/>
+  <use xlink:href="#mfb7bc452bd" x="85.910325" y="223.444052" style="fill: #1f77b4;"/>
+  <use xlink:href="#mfb7bc452bd" x="97.608331" y="227.162653" style="fill: #1f77b4;"/>
+  <use xlink:href="#mfb7bc452bd" x="76.783159" y="214.423549" style="fill: #1f77b4;"/>
+  <use xlink:href="#mfb7bc452bd" x="89.518819" y="215.409361" style="fill: #1f77b4;"/>
+  <use xlink:href="#mfb7bc452bd" x="69.218182" y="215.730528" style="fill: #1f77b4;"/>
+  <use xlink:href="#mfb7bc452bd" x="71.382018" y="210.540836" style="fill: #1f77b4;"/>
+  <use xlink:href="#mfb7bc452bd" x="70.705786" y="222.333496" style="fill: #1f77b4;"/>
+  <use xlink:href="#mfb7bc452bd" x="110.824153" y="220.670125" style="fill: #1f77b4;"/>
+  <use xlink:href="#mfb7bc452bd" x="205.576992" y="236.890369" style="fill: #1f77b4;"/>
+  <use xlink:href="#mfb7bc452bd" x="196.994959" y="236.535131" style="fill: #1f77b4;"/>
+  <use xlink:href="#mfb7bc452bd" x="183.055529" y="236.236424" style="fill: #1f77b4;"/>
+  <use xlink:href="#mfb7bc452bd" x="195.985171" y="241.319528" style="fill: #1f77b4;"/>
+  <use xlink:href="#mfb7bc452bd" x="202.131438" y="239.69198" style="fill: #1f77b4;"/>
+  <use xlink:href="#mfb7bc452bd" x="175.031763" y="241.396097" style="fill: #1f77b4;"/>
+  <use xlink:href="#mfb7bc452bd" x="210.511918" y="236.858688" style="fill: #1f77b4;"/>
+  <use xlink:href="#mfb7bc452bd" x="194.23985" y="243.71368" style="fill: #1f77b4;"/>
+  <use xlink:href="#mfb7bc452bd" x="373.581818" y="44.64" style="fill: #1f77b4;"/>
+  <!-- Coloring the extremum points differently -->
+  <use xlink:href="#mfb7bc452bd" x="196.007672" y="245.217486" style="fill: red;"/> <!-- Highest Y -->
+  <use xlink:href="#mfb7bc452bd" x="196.837552" y="246.24" style="fill: red;"/> <!-- Highest Y -->
+ </g>
 </svg>

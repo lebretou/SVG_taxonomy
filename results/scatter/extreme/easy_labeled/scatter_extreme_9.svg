@@ -1,49 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
-  <path id="extremumPoint" d="M 0 3 
-C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
-C 2.683901 1.55874 3 0.795609 3 0 
-C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
-C 1.55874 -2.683901 0.795609 -3 0 -3 
-C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
-C -2.683901 -1.55874 -3 -0.795609 -3 0 
-C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
-C -1.55874 2.683901 -0.795609 3 0 3 
-z" style="stroke: #d62728; stroke-opacity: 1"/>
-  <path id="regularPoint" d="M 0 3 
-C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
-C 2.683901 1.55874 3 0.795609 3 0 
-C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
-C 1.55874 -2.683901 0.795609 -3 0 -3 
-C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
-C -2.683901 -1.55874 -3 -0.795609 -3 0 
-C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
-C -1.55874 2.683901 -0.795609 3 0 3 
-z" style="stroke: #1f77b4; stroke-opacity: 0.6"/>
- </defs>
  <g>
-  <use xlink:href="#regularPoint" x="121.481713" y="147.154152"/>
-  <use xlink:href="#regularPoint" x="86.634359" y="151.909286"/>
-  <use xlink:href="#regularPoint" x="105.081435" y="171.62537"/>
-  <use xlink:href="#regularPoint" x="90.020912" y="196.60004"/>
-  <use xlink:href="#regularPoint" x="114.414922" y="163.632245"/>
-  <use xlink:href="#extremumPoint" x="69.218182" y="246.24"/>
-  <use xlink:href="#regularPoint" x="100.889557" y="173.686624"/>
-  <use xlink:href="#regularPoint" x="84.141378" y="189.253402"/>
-  <use xlink:href="#regularPoint" x="86.777313" y="202.816313"/>
-  <use xlink:href="#regularPoint" x="98.746969" y="214.89613"/>
-  <use xlink:href="#regularPoint" x="245.661764" y="101.388924"/>
-  <use xlink:href="#regularPoint" x="222.642109" y="111.593474"/>
-  <use xlink:href="#regularPoint" x="229.072123" y="76.224232"/>
-  <use xlink:href="#regularPoint" x="230.651936" y="110.701106"/>
-  <use xlink:href="#regularPoint" x="250.419164" y="100.563973"/>
-  <use xlink:href="#regularPoint" x="233.548779" y="110.95962"/>
-  <use xlink:href="#regularPoint" x="229.839058" y="97.863698"/>
-  <use xlink:href="#regularPoint" x="243.003344" y="107.432719"/>
-  <use xlink:href="#regularPoint" x="244.050812" y="72.028513"/>
-  <use xlink:href="#regularPoint" x="217.358069" y="127.600951"/>
-  <use xlink:href="#extremumPoint" x="373.581818" y="44.64"/>
+    <defs>
+     <path id="mb58991a776" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z"/>
+    </defs>
+    <g>
+     <use xlink:href="#mb58991a776" x="104.452344" y="142.182001" style="fill: #1f77b4;"/>
+     <use xlink:href="#mb58991a776" x="120.392653" y="131.093612" style="fill: #1f77b4;"/>
+     <use xlink:href="#mb58991a776" x="83.425759" y="172.2948" style="fill: #1f77b4;"/>
+     <use xlink:href="#mb58991a776" x="69.218182" y="169.752344" style="fill: #1f77b4;"/>
+     <use xlink:href="#mb58991a776" x="132.411558" y="130.361389" style="fill: #1f77b4;"/>
+     <use xlink:href="#mb58991a776" x="128.487995" y="151.610997" style="fill: #1f77b4;"/>
+     <use xlink:href="#mb58991a776" x="109.430757" y="147.464371" style="fill: #1f77b4;"/>
+     <use xlink:href="#mb58991a776" x="123.590473" y="166.563625" style="fill: #1f77b4;"/>
+     <use xlink:href="#mb58991a776" x="152.114269" y="126.900751" style="fill: #1f77b4;"/>
+     <use xlink:href="#mb58991a776" x="105.517872" y="144.239337" style="fill: #1f77b4;"/>
+     <use xlink:href="#mb58991a776" x="348.093257" y="83.726464" style="fill: #1f77b4;"/>
+     <use xlink:href="#mb58991a776" x="333.524205" y="77.558085" style="fill: #1f77b4;"/>
+     <use xlink:href="#mb58991a776" x="355.803454" y="114.547856" style="fill: #1f77b4;"/>
+     <use xlink:href="#mb58991a776" x="331.923256" y="76.057639" style="fill: #1f77b4;"/>
+     <use xlink:href="#mb58991a776" x="355.766803" y="90.274" style="fill: #1f77b4;"/>
+     <use xlink:href="#mb58991a776" x="373.581818" y="84.550833" style="fill: #1f77b4;"/>
+     <use xlink:href="#mb58991a776" x="352.104426" y="44.64" style="fill: #ff0000;"/> <!-- Min Y -->
+     <use xlink:href="#mb58991a776" x="345.346108" y="56.815649" style="fill: #1f77b4;"/>
+     <use xlink:href="#mb58991a776" x="369.893054" y="87.098021" style="fill: #1f77b4;"/>
+     <use xlink:href="#mb58991a776" x="339.807893" y="81.912528" style="fill: #1f77b4;"/>
+     <use xlink:href="#mb58991a776" x="180.910355" y="246.24" style="fill: #ff0000;"/> <!-- Max Y -->
+    </g>
  </g>
 </svg>

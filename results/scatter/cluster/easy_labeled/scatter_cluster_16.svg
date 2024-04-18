@@ -1,29 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
-  <g>
-    <!-- Cluster 1 -->
-    <circle cx="109.035273" cy="246.24" r="3" style="fill: #ff0000;"/>
-    <circle cx="122.825081" cy="141.667458" r="3" style="fill: #ff0000;"/>
-    <circle cx="125.357301" cy="198.768607" r="3" style="fill: #ff0000;"/>
-    <circle cx="104.087308" cy="122.130011" r="3" style="fill: #ff0000;"/>
-    <circle cx="69.218182" cy="152.724745" r="3" style="fill: #ff0000;"/>
-    <circle cx="90.159005" cy="181.203113" r="3" style="fill: #ff0000;"/>
-    <circle cx="162.026369" cy="154.409785" r="3" style="fill: #ff0000;"/>
-    <circle cx="135.641623" cy="151.635321" r="3" style="fill: #ff0000;"/>
-    <circle cx="98.885695" cy="151.538416" r="3" style="fill: #ff0000;"/>
-    <circle cx="129.624341" cy="142.786954" r="3" style="fill: #ff0000;"/>
-    <circle cx="222.282624" cy="191.635983" r="3" style="fill: #ff0000;"/>
-
-    <!-- Cluster 2 -->
-    <circle cx="354.546151" cy="73.779509" r="3" style="fill: #0000ff;"/>
-    <circle cx="327.336698" cy="88.487069" r="3" style="fill: #0000ff;"/>
-    <circle cx="341.337448" cy="182.154466" r="3" style="fill: #0000ff;"/>
-    <circle cx="334.099462" cy="44.64" r="3" style="fill: #0000ff;"/>
-    <circle cx="303.861715" cy="107.305488" r="3" style="fill: #0000ff;"/>
-    <circle cx="343.043911" cy="144.630219" r="3" style="fill: #0000ff;"/>
-    <circle cx="318.569866" cy="101.131382" r="3" style="fill: #0000ff;"/>
-    <circle cx="334.522168" cy="131.701823" r="3" style="fill: #0000ff;"/>
-    <circle cx="373.581818" cy="162.161298" r="3" style="fill: #0000ff;"/>
-    <circle cx="335.890977" cy="112.743323" r="3" style="fill: #0000ff;"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="432pt" height="288pt" viewBox="0 0 432 288" version="1.1">
+  <g id="surface1">
+    <circle cx="180.898561" cy="230.670052" r="3" fill="#ff0000"/>
+    <circle cx="169.910809" cy="230.78148" r="3" fill="#ff0000"/>
+    <circle cx="149.886355" cy="236.596663" r="3" fill="#ff0000"/>
+    <circle cx="187.658544" cy="227.283212" r="3" fill="#ff0000"/>
+    <circle cx="179.040549" cy="212.965236" r="3" fill="#ff0000"/>
+    <circle cx="182.80295" cy="246.24" r="3" fill="#ff0000"/>
+    <circle cx="175.668764" cy="233.563934" r="3" fill="#ff0000"/>
+    <circle cx="174.918125" cy="209.824623" r="3" fill="#ff0000"/>
+    <circle cx="167.95901" cy="216.926374" r="3" fill="#ff0000"/>
+    <circle cx="154.999602" cy="235.342144" r="3" fill="#ff0000"/>
+    <circle cx="363.458128" cy="168.40812" r="3" fill="#00ff00"/>
+    <circle cx="348.470721" cy="171.900681" r="3" fill="#00ff00"/>
+    <circle cx="353.822944" cy="165.646318" r="3" fill="#00ff00"/>
+    <circle cx="368.655758" cy="175.583049" r="3" fill="#00ff00"/>
+    <circle cx="341.400437" cy="161.245561" r="3" fill="#00ff00"/>
+    <circle cx="354.850025" cy="171.481956" r="3" fill="#00ff00"/>
+    <circle cx="317.725916" cy="182.213115" r="3" fill="#00ff00"/>
+    <circle cx="361.609378" cy="163.927181" r="3" fill="#00ff00"/>
+    <circle cx="373.581818" cy="168.27141" r="3" fill="#00ff00"/>
+    <circle cx="361.133601" cy="162.919457" r="3" fill="#00ff00"/>
+    <circle cx="69.218182" cy="44.64" r="3" fill="#0000ff"/>
   </g>
 </svg>
