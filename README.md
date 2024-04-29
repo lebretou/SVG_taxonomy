@@ -31,25 +31,24 @@ findings contribute to gauging the general capabilities of LLMs and
 highlight the need for further exploration and development to fully
 harness their potential in supporting visual analytic tasks.
 
-## SVG Visualizations 
-Below are examples of the three chart type with each of the plot difficulty that we tested in our study. 
+Below are examples of the three chart types with each of the plot difficulties that we tested in our study.
 | Difficulty | Scatterplot | Line Chart | Bar Chart|
-|----------|----------|----------|----------|
-| Small Unlabeled  | ![Image1](./images/scatter/easy_unlabeled/scatter_data_0.svg) | ![Image1](./images/line/easy_unlabeled/line_data_0.svg) |![Image1](./images/bar/easy_unlabeled/bar_data_0.svg) |
-| Small Labeled  | ![Image1](./images/scatter/easy_labeled/scatter_data_0.svg) | ![Image1](./images/line/easy_labeled/line_data_0.svg) |![Image1](./images/bar/easy_labeled/bar_data_0.svg) |
-| Medium Unlabeled  | ![Image1](./images/scatter/hard_unlabeled/scatter_data_0.svg) | ![Image1](./images/line/hard_unlabeled/line_data_0.svg) |![Image1](./images/bar/hard_unlabeled/bar_data_0.svg) |
-| Medium Labeled  | ![Image1](./images/scatter/hard_labeled/scatter_data_0.svg) | ![Image1](./images/line/hard_labeled/line_data_0.svg) |![Image1](./images/bar/hard_labeled/bar_data_0.svg) |
+|------------|-------------|------------|----------|
+| Small Unlabeled  | ![Image1](./images/scatter/easy_unlabeled/scatter_data_0.svg) | ![Image1](./images/line/easy_unlabeled/line_data_0.svg) | ![Image1](./images/bar/easy_unlabeled/bar_data_0.svg) |
+| Small Labeled    | ![Image1](./images/scatter/easy_labeled/scatter_data_0.svg) | ![Image1](./images/line/easy_labeled/line_data_0.svg) | ![Image1](./images/bar/easy_labeled/bar_data_0.svg) |
+| Medium Unlabeled | ![Image1](./images/scatter/hard_unlabeled/scatter_data_0.svg) | ![Image1](./images/line/hard_unlabeled/line_data_0.svg) | ![Image1](./images/bar/hard_unlabeled/bar_data_0.svg) |
+| Medium Labeled   | ![Image1](./images/scatter/hard_labeled/scatter_data_0.svg) | ![Image1](./images/line/hard_labeled/line_data_0.svg) | ![Image1](./images/bar/hard_labeled/bar_data_0.svg) |
 
-The datapoints for creating these plots are generated using `data_generation/gen_data.py` which can be specified using command line argument. You can specify the number of data points, chart type and number of separate datasets to generate. Example:
+Data points for creating these plots are generated using `data_generation/gen_data.py`, which can be specified using command line arguments. You can specify the number of data points, chart type, and number of separate datasets to generate. Example:
 
-`python3 gen_data.py -data_type scatter --n_points 30 --n_datasets 20 --output_folder {OUTPUT PATH}`
+`python3 gen_data.py --data_type scatter --n_points 30 --n_datasets 20 --output_folder {OUTPUT_PATH}`
 
-The plots are then plotted using `data_generation/plot.py` which again can be specified using command line argument. You can specify the chart type, input and output folder as well as whether to label the data points with their values. Example: 
+The plots are then plotted using `data_generation/plot.py`, which again can be specified using command line arguments. You can specify the chart type, input and output folders, as well as whether to label the data points. Example:
 
 `python plot.py --data_type scatter --input_folder {INPUT_PATH} --output_folder {OUTPUT_PATH} --label`
 
-## Prompts 
-The prompts are located in `llm/prompt.json`. We created prompt for each low-level visual taxonomy that we tested. One example prompt: 
+## Prompts
+The prompts are located in `llm/prompt.json`. We created a prompt for each low-level visual taxonomy that we tested. One example prompt:
 
 ```
 <input>: An SVG scatter plot with n points. The points are not labeled with their coordinates. The axes, title, legends, and other unnecessary elements are omitted for simplicity.
@@ -67,7 +66,10 @@ Instructions:
 <input SVG scatterplot>: 
 ```
 
+## Low-level Visual Taxonomy
+To test the low-level visual tasks, we employed OpenAI's `gpt4-turbo-preview` model, we then used `llm/completion.py` to run the tests. The file allows us to asychronously send a number of prompts to OpenAI's API and retrieve results as a whole. 
 
+## Citation 
 
 
 
