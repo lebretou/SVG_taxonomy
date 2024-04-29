@@ -2,7 +2,7 @@
 
 This repo hosts the supplemental material as a submission to IEEE VIS 2024
 
-**Paper Title**
+**Exploring the Capability of LLMs in Performing Low-Level Visual Analytic Tasks on SVG Data Visualizations**
 
 Zhongzheng Xu, Emily Wall
 
@@ -32,8 +32,9 @@ highlight the need for further exploration and development to fully
 harness their potential in supporting visual analytic tasks.
 
 ## SVG Visualizations
-
-Below are examples of the three chart types with each of the plot difficulties that we tested in our study.
+This repository contains examples of three chart types (scatterplot, line chart, and bar chart) with varying plot difficulties used in our study. The visualizations are generated using Python scripts and saved as SVG files.
+### Chart Types and Difficulties
+The following table summarizes the chart types and their corresponding difficulties:
 | Difficulty | Scatterplot | Line Chart | Bar Chart|
 |------------|-------------|------------|----------|
 | Small Unlabeled  | ![Image1](./images/scatter/easy_unlabeled/scatter_data_0.svg) | ![Image1](./images/line/easy_unlabeled/line_data_0.svg) | ![Image1](./images/bar/easy_unlabeled/bar_data_0.svg) |
@@ -41,7 +42,7 @@ Below are examples of the three chart types with each of the plot difficulties t
 | Medium Unlabeled | ![Image1](./images/scatter/hard_unlabeled/scatter_data_0.svg) | ![Image1](./images/line/hard_unlabeled/line_data_0.svg) | ![Image1](./images/bar/hard_unlabeled/bar_data_0.svg) |
 | Medium Labeled   | ![Image1](./images/scatter/hard_labeled/scatter_data_0.svg) | ![Image1](./images/line/hard_labeled/line_data_0.svg) | ![Image1](./images/bar/hard_labeled/bar_data_0.svg) |
 
-Each task difficulty for charts we generated is summarized in this table:
+The characteristics of each chart type and difficulty level are as follows:
 | Chart Type        | Data Points/Bins | Outliers | Clusters |
 |-------------------|------------------|----------|----------|
 | Scatter (Small)  | 20               | 1        | 2        |
@@ -51,16 +52,18 @@ Each task difficulty for charts we generated is summarized in this table:
 | Line (Small)     | 10               | 1        | N/A      |
 | Line (Medium)    | 25               | 2        | N/A      |
 
-Data points for creating these plots are generated using `data_generation/gen_data.py`, which can be specified using command line arguments. You can specify the number of data points, chart type, and number of separate datasets to generate. Example:
+### Data Generation and Plotting
+
+Data points for creating the plots are generated using `data_generation/gen_data.py`. The script can be run with command-line arguments to specify the number of data points, chart type, and number of separate datasets to generate. For example:
 
 `python3 gen_data.py --data_type scatter --n_points 30 --n_datasets 20 --output_folder {OUTPUT_PATH}`
 
-The plots are then plotted using `data_generation/plot.py`, which again can be specified using command line arguments. You can specify the chart type, input and output folders, as well as whether to label the data points. Example:
+The plots are then created using `data_generation/plot.py`. This script also accepts command-line arguments to specify the chart type, input and output folders, and whether to label the data points. For example:
 
 `python plot.py --data_type scatter --input_folder {INPUT_PATH} --output_folder {OUTPUT_PATH} --label`
 
 ## Prompts
-The prompts are located in `llm/prompt.json`. We created a prompt for each low-level visual taxonomy that we tested. One example prompt:
+The prompts used in the study are located in `llm/prompt.json`. Each prompt corresponds to a low-level visual taxonomy that was tested. Here's an example prompt:
 
 ```
 <input>: An SVG scatter plot with n points. The points are not labeled with their coordinates. The axes, title, legends, and other unnecessary elements are omitted for simplicity.
@@ -79,7 +82,7 @@ Instructions:
 ```
 
 ## Low-level Visual Taxonomy
-To test the low-level visual tasks, we employed OpenAI's `gpt4-turbo-preview` model, we then used `llm/completion.py` to run the tests. The file allows us to asychronously send a number of prompts to OpenAI's API and retrieve results as a whole. 
+To test the low-level visual tasks, we employed OpenAI's `gpt4-turbo-preview` model and used `llm/completion.py` to run the tests. This file allows us to asynchronously send multiple prompts to OpenAI's API and retrieve the results as a whole.
 
 ## Citation 
 
