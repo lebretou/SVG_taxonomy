@@ -45,15 +45,15 @@ def plot_csv_pairs(folder_a, folder_b, output_folder):
             plt.figure()
 
             # Plot the data points from folder A
-            plt.scatter(x_a, y_a, color='blue', label=file_a)
+            plt.scatter(x_a, y_a, color='#e29578', label=file_a)
 
             # Plot the data points from folder B
-            plt.scatter(x_b, y_b, color='red', label=file_b)
+            plt.scatter(x_b, y_b, color='#006d77', label=file_b)
 
             # Add labels and legend
             plt.xlabel('X')
             plt.ylabel('Y')
-            plt.legend()
+            # plt.legend()
 
             # Save the plot as an image file
             output_filename = f"plot_{i}.png"
@@ -103,15 +103,15 @@ def plot_csv_pairs_lines(folder_a, folder_b, output_folder):
             plt.figure()
 
             # Plot the data points from folder A as a line
-            plt.plot(x_a, y_a, color='blue', label=file_a)
+            plt.plot(x_a, y_a, color='#e29578', label=file_a)
 
             # Plot the data points from folder B as a line
-            plt.plot(x_b, y_b, color='red', label=file_b)
+            plt.plot(x_b, y_b, color='#006d77', label=file_b)
 
             # Add labels and legend
             plt.xlabel('X')
             plt.ylabel('Y')
-            plt.legend()
+            # plt.legend()
 
             # Save the plot as an image file
             output_filename = f"plot_{i}.png"
@@ -195,8 +195,8 @@ def plot_csv_pairs_bars(folder_a, folder_b, output_folder):
     print("All plots have been saved.")
 
 # Example usage
-folder_a = '../dataset/bar/easy'
-folder_b = '../results/bar/retrieval/easy_unlabeled'
-output_folder = '../results/bar/retrieval/easy_unlabeled'
+folder_a = '../dataset/line/hard'
+folder_b = '../results/line/retrieval/hard_unlabeled'
+output_folder = '../results/line/retrieval/hard_unlabeled'
 
-plot_csv_pairs_bars(folder_a, folder_b, output_folder)
+plot_csv_pairs_lines(folder_a, folder_b, output_folder)
