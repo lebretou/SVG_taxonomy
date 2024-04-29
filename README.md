@@ -39,6 +39,16 @@ Below are examples of the three chart types with each of the plot difficulties t
 | Medium Unlabeled | ![Image1](./images/scatter/hard_unlabeled/scatter_data_0.svg) | ![Image1](./images/line/hard_unlabeled/line_data_0.svg) | ![Image1](./images/bar/hard_unlabeled/bar_data_0.svg) |
 | Medium Labeled   | ![Image1](./images/scatter/hard_labeled/scatter_data_0.svg) | ![Image1](./images/line/hard_labeled/line_data_0.svg) | ![Image1](./images/bar/hard_labeled/bar_data_0.svg) |
 
+Each task difficulty for charts we generated is summarized in this table:
+| Chart Type        | Data Points/Bins | Outliers | Clusters |
+|-------------------|------------------|----------|----------|
+| Scatter (Small)  | 20               | 1        | 2        |
+| Scatter (Medium) | 50               | 2        | 3        |
+| Bar (Small)      | 10               | 1        | N/A      |
+| Bar (Medium)     | 25               | 2        | N/A      |
+| Line (Small)     | 10               | 1        | N/A      |
+| Line (Medium)    | 25               | 2        | N/A      |
+
 Data points for creating these plots are generated using `data_generation/gen_data.py`, which can be specified using command line arguments. You can specify the number of data points, chart type, and number of separate datasets to generate. Example:
 
 `python3 gen_data.py --data_type scatter --n_points 30 --n_datasets 20 --output_folder {OUTPUT_PATH}`
