@@ -86,7 +86,7 @@ To test the low-level visual tasks, we employed OpenAI's `gpt4-turbo-preview` mo
 
 ## Citation 
 ```
-@article{xu2023vysical,
+@article{xu2024explore,
   title={Exploring the Capability of LLMs in Performing Low-Level Visual Analytic Tasks on SVG Data Visualizations},
   author={Xu, Zhongzheng and Wall, Emily},
   journal={IEEE Transactions on Visualization and Computer Graphics (TVCG)},
