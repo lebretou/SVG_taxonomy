@@ -31,6 +31,8 @@ findings contribute to gauging the general capabilities of LLMs and
 highlight the need for further exploration and development to fully
 harness their potential in supporting visual analytic tasks.
 
+## SVG Visualizations
+
 Below are examples of the three chart types with each of the plot difficulties that we tested in our study.
 | Difficulty | Scatterplot | Line Chart | Bar Chart|
 |------------|-------------|------------|----------|
