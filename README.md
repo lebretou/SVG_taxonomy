@@ -85,7 +85,16 @@ Instructions:
 To test the low-level visual tasks, we employed OpenAI's `gpt4-turbo-preview` model and used `llm/completion.py` to run the tests. This file allows us to asynchronously send multiple prompts to OpenAI's API and retrieve the results as a whole.
 
 ## Citation 
-
+```
+@article{xu2023vysical,
+  title={Exploring the Capability of LLMs in Performing Low-Level Visual Analytic Tasks on SVG Data Visualizations},
+  author={Xu, Zhongzheng and Wall, Emily},
+  journal={IEEE Transactions on Visualization and Computer Graphics (TVCG)},
+  year={2024},
+  publisher={IEEE},
+  url={todo}
+}
+```
 
 
 
