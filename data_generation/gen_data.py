@@ -195,9 +195,15 @@ def main():
 
             if n_points <= 20: 
                 n_clusters = 2
-            else:
+            elif n_points <= 50:
                 n_clusters = 3
                 n_outliers = 2
+            elif n_points <= 70:
+                n_clusters= 4
+                n_outliers = 3
+            else:
+                n_clusters = 5
+                n_outliers = 4
         
             # n_clusters = np.random.randint(2, 5)
             cluster_bias = np.random.uniform(50, 60)
