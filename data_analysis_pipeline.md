@@ -1,6 +1,5 @@
 # Data Analysis Documentation
 
-
 ## Hypothesis 1
 
 ```
@@ -19,7 +18,7 @@ The PBVI group will more accurately identify the smaller of two stimuli using ta
 | Independence                   | The observations from both samples must be **independent** of each other (no pairing or matching between samples).                                                                                         | N/A            | ✅       |
 | Random  Sampling               | The samples should be **drawn randomly** from their respective populations.                                                                                                                                | N/A            | ✅       |
 | Ordinal Measurement Scale      | The data should be at least **ordinal** (can be ranked).                                                                                                                                                   | N/A            | ✅       |
-| Similar shape of distributions | While the test **doesn't require normal distributions**, traditionally it assumes that the distributions of both populations have similar shapes and variability, **differing only in location (median)**. | Plotting       | ✅       |
+| Similar shape of distributions | While the test **doesn't require normal distributions**, traditionally it assumes that the distributions of both populations have similar shapes and variability, **differing only in location (median)**. | Plotting       | -       |
 | Continuity                     | The underlying distributions should be continuous (though ties in the data can be handled).                                                                                                                | N/A            | ✅       |
 
 #### Verifying Assumptions with Code
@@ -73,7 +72,7 @@ The PBVI group will perceive proportional differences between tactile stimuli mo
 | ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | ------- |
 | Independence                  | Observations within and between groups must be **independent** of each other (no correlation between measurements).                          | -                      | ✅       |
 | Normality                     | The data within each group should follow a **normal distribution**. Less critical with larger sample sizes due to the Central Limit Theorem. | Aligned Rank Transform | ✅       |
-| Homogeneity of Variances      | All groups should have **similar variances** (homoscedasticity).                                                                             | Levene's test          | ✅       |
+| Homogeneity of Variances      | All groups should have **similar variances** (homoscedasticity).                                                                             | Levene's test          | -       |
 | Continuous Dependent Variable | The outcome variable must be measured on a **continuous scale** (interval or ratio).                                                         | -                      | ✅       |
 | Random Sampling               | Samples should be **randomly selected** from their respective populations.                                                                   | -                      | ✅       |
 | No Significant Outliers       | Data should be free from **extreme values** that can disproportionately influence results.                                                   | Removing outliers      | ✅       |
@@ -187,7 +186,7 @@ The PBVI group will perceive tactile encodings with a differing order of accurac
 | ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | ------- |
 | Independence                  | Observations within and between groups must be **independent** of each other (no correlation between measurements).                          | -                      | ✅       |
 | Normality                     | The data within each group should follow a **normal distribution**. Less critical with larger sample sizes due to the Central Limit Theorem. | Aligned Rank Transform | ✅       |
-| Homogeneity of Variances      | All groups should have **similar variances** (homoscedasticity).                                                                             | Levene's test          | ✅       |
+| Homogeneity of Variances      | All groups should have **similar variances** (homoscedasticity).                                                                             | Levene's test          | -       |
 | Continuous Dependent Variable | The outcome variable must be measured on a **continuous scale** (interval or ratio).                                                         | -                      | ✅       |
 | Random Sampling               | Samples should be **randomly selected** from their respective populations.                                                                   | -                      | ✅       |
 | No Significant Outliers       | Data should be free from **extreme values** that can disproportionately influence results.                                                   | Removing outliers      | ✅       |
@@ -323,7 +322,7 @@ Both the sighted and PBVI groups will perceive the proportional differences betw
 | ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | ------- |
 | Independence                  | Observations within and between groups must be **independent** of each other (no correlation between measurements).                          | -                      | ✅       |
 | Normality                     | The data within each group should follow a **normal distribution**. Less critical with larger sample sizes due to the Central Limit Theorem. | Aligned Rank Transform | ✅       |
-| Homogeneity of Variances      | All groups should have **similar variances** (homoscedasticity).                                                                             | Levene's test          | ✅       |
+| Homogeneity of Variances      | All groups should have **similar variances** (homoscedasticity).                                                                             | Levene's test          | -       |
 | Continuous Dependent Variable | The outcome variable must be measured on a **continuous scale** (interval or ratio).                                                         | -                      | ✅       |
 | Random Sampling               | Samples should be **randomly selected** from their respective populations.                                                                   | -                      | ✅       |
 | No Significant Outliers       | Data should be free from **extreme values** that can disproportionately influence results.                                                   | Removing outliers      | ✅       |
