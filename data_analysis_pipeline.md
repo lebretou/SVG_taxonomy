@@ -1,6 +1,6 @@
 # Data Analysis Documentation
 
-This document contains the steps taken in our data analysis process. Notably, for each hypothesis we will inlcude the hypothesis itself, assumptions, and data distribution before and after cleaning, and finally the results.
+
 ## Hypothesis 1
 
 ```
